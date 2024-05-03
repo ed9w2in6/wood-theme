@@ -194,4 +194,9 @@
  '(web-mode-warning-face ((((class color) (min-colors 89)) (:inherit font-lock-warning-face))))
  '(yas-field-highlight-face ((t (:background "#64403d")))))
 
+;;;###autoload
+(when (and (boundp 'custom-theme-load-path) load-file-name)
+  (add-to-list 'custom-theme-load-path
+               (file-name-as-directory (file-name-directory load-file-name))))
+
 (provide-theme 'wood-dark)
