@@ -1,4 +1,38 @@
-#+TITLE:wood-dark-theme
+#+TITLE:wood-theme
+* About
+  A warm, wood-tone colour theme that aims to be gentle on the eyes.
+
+  Not sure if I can call this my design philosophy, but I have roughly followed these rules:
+  + Warm wood
+    - Use warm, wood-tone colour whenever possible
+  + Low-saturation low-blue
+    - Avoid high-saturation colours, especially blue
+    - I believe this caused eye strain
+  + Practical
+    - break the rules if it does not work practically
+    - e.g. allow blue for warning-related content
+
+  This theme suits best to people who need to stare at the screen for long periods.
+  My testimony is that this /seems/ to have fixed my eye strains.
+
+  As of [2024-05-05 Sun], this is implemented for Emacs only.
+* Installation
+** Emacs
+   If you use =straight.el= do:
+   #+begin_src emacs-lisp :results output scalar :eval no
+(use-package wood-dark-theme
+ :straight (wood-theme
+   :type git
+   :host github
+   :repo "ed9w2in6/wood-theme"
+   )
+  :config
+  (load-theme 'wood-dark))
+   #+end_src
+
+  As of [2024-05-05 Sun], the only alternative is by manual installtion.
+  You'll have to clone this repo, put the relavent files to your Emacs
+  home directory, or add the path the cloned repo to =custom-theme-load-path=.
 * Workflow
   + After commit, freeze all changes for at least 1 week
     - unless breaking issue
