@@ -7,10 +7,11 @@
     - Use warm, wood-tone colour whenever possible
   + Low-saturation low-blue
     - Avoid high-saturation colours, especially blue
-    - I believe this caused eye strain
+    - I believe this caused eye strain ([[http://web.mit.edu/6.813/www/sp16/classes/16-color/#design-guidelines][ref]])
   + Practical
-    - break the rules if it does not work practically
-    - e.g. allow blue for warning-related content
+    - break the rules sparingly if it does not work practically
+    - e.g. use high-saturation red and green for highlights
+    - e.g. allow blue for error or warning related contents
 
   This theme suits best to people who need to stare at the screen for long periods.
   My testimony is that this /seems/ to have fixed my eye strains.
@@ -34,15 +35,17 @@
   You'll have to clone this repo, put the relavent files to your Emacs
   home directory, or add the path the cloned repo to =custom-theme-load-path=.
 * Workflow
-  + After commit, freeze all changes for at least 1 week
-    - unless breaking issue
-      * e.g. error (i.e. syntax), invisible char (i.e. logic)
-    - annoyance (i.e. design) does NOT count as breaking
-  + Record all annoyance in this document
-  + Open for improvment after 1 week freeze
+  As I intend this for personal use only, the work flow is kept simple and manual:
+
+  1. After commit, freeze all changes for at least 1 week
+     - unless breaking issue
+       * e.g. error (i.e. syntax), invisible char (i.e. logic)
+     - annoyance (i.e. design) does NOT count as breaking
+  2. Record all annoyance in this document
+  3. Open for improvment after 1 week freeze
 * Annoyances
   Nothing for now. ([2024-03-21 Thu])
-* Potential Changes
+* Future Work
   + redo with https://github.com/jasonm23/autothemer
     - benefit is that common color uses same colour name.
     - pallete generation
@@ -52,20 +55,20 @@
   + maybe use some orange / brown for some faces?
     - [2023-08-18 Fri] :: actually I can't pin point any that annoys me.
 * Change Log
+** week of [2024-03-21 Thu]
+   + custom =marginalia-key= face for helm-like keybind hint face
+** from git log [2023-12-01 Fri]
+   + migrate =tab-line= styling to the theme
+   + migrate =aw-leading-char-face= styling to the theme
+   + =jupyter-repl= related styling, make them follow my ANSI theme
+** from git log [2023-11-01 Wed]
+   + change =mode-line= color to distinguish from =mode-line-emphais=
+   + other mode line related styling
+** from git log [2023-09-12 Tue]
+   + style =header-line=
 ** week of [2023-08-13 Sun]
    + Better font definitions (fixed-pitch vs variable-pitch)
    + Better org mode appearance
      - These helped making =org-present= more usable (it actually look good now)
    + set ANSI colour (e.g. ugly blue for jupyter(ipython) help)
    + highlight colour (e.g. on match for isearch) should have more contrast to be easily visible
-** from git log [2024-09-12 Thu]
-   + style =header-line=
-** from git log [2023-11-01 Wed]
-   + change =mode-line= color to distinguish from =mode-line-emphais=
-   + other mode line related styling
-** from git log [2023-12-01 Fri]
-   + migrate =tab-line= styling to the theme
-   + migrate =aw-leading-char-face= styling to the theme
-   + =jupyter-repl= related styling, make them follow my ANSI theme
-** week of [2024-03-21 Thu]
-   + custom =marginalia-key= face for helm-like keybind hint face
