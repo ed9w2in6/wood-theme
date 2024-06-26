@@ -132,7 +132,9 @@
  '(org-level-8 ((t (:extend nil :weight semi-bold :family "Source Sans 3"))))
  '(org-meta-line ((t (:inherit (font-lock-comment-face fixed-pitch)))))
  '(org-sexp-date ((((class color) (min-colors 89)) (:foreground "#c2a580"))))
- '(org-special-keyword ((t (:inherit (font-lock-keyword-face fixed-pitch)))))
+ ;; org-special-keyword used to format org-comment-string, and property entries
+ ;; alt: font-lock-property-name-face, font-lock-comment-face (not recommended)
+ '(org-special-keyword ((t (:inherit (font-lock-builtin-face fixed-pitch)))))
  '(org-table ((t (:foreground "#f5ec00" :inherit fixed-pitch))))
  '(org-verbatim ((t (:inherit (shadow fixed-pitch)))))
  '(rainbow-delimiters-depth-1-face ((((class color) (min-colors 89)) :foreground "#fffbca")))
