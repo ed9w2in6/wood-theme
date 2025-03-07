@@ -129,7 +129,7 @@
  '(org-level-2 ((t (:height 1.44 :foreground "#9c3e00" :extend nil :inherit org-level-8))))
  '(org-level-3 ((t (:height 1.2 :foreground "#488800" :extend nil :inherit org-level-8))))
  '(org-level-4 ((t (:height 1.1 :inherit org-level-8 :extend nil :foreground "#d29d00"))))
- '(org-level-8 ((t (:extend nil :weight semi-bold :family "Source Sans 3"))))
+ '(org-level-8 ((t (:extend nil :weight semi-bold :family "Source Sans Pro"))))
  '(org-meta-line ((t (:inherit (font-lock-comment-face fixed-pitch)))))
  '(org-sexp-date ((((class color) (min-colors 89)) (:foreground "#c2a580"))))
  ;; org-special-keyword used to format org-comment-string, and property entries
@@ -179,7 +179,7 @@
  '(undo-tree-visualizer-default-face ((((class color) (min-colors 89)) :foreground "#ebc89b")))
  '(undo-tree-visualizer-register-face ((((class color) (min-colors 89)) :foreground "#eee884")))
  '(undo-tree-visualizer-unmodified-face ((((class color) (min-colors 89)) :foreground "#d29d00")))
- '(variable-pitch ((t (:weight light :family "Source Sans 3"))))
+ '(variable-pitch ((t (:weight light :family "Source Sans Pro"))))
  '(vertical-border ((t (:foreground "#77664f"))))
  '(warning ((((class color) (min-colors 89)) (:foreground "#55aaff"))))
  '(web-mode-builtin-face ((((class color) (min-colors 89)) (:inherit font-lock-builtin-face))))
