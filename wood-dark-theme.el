@@ -1,200 +1,337 @@
-(deftheme wood-dark
-  "Looks like dark wood.")
+;;; wood-theme.el --- Wood-theme: looks like wood
 
-(custom-theme-set-faces
- 'wood-dark
- '(default ((t (:background "#331400" :foreground "#fffbca" :weight light :height 140 :family "JetBrainsMono Nerd Font Mono"))))
- '(ac-completion-face ((((class color) (min-colors 89)) (:underline t :foreground "#9c3e00"))))
- '(ansi-color-black ((t (:background "#161616" :foreground "#161616"))))
- '(ansi-color-bright-black ((t (:background "#959595" :foreground "#959595"))))
- '(ansi-color-red ((t (:background "#c72d23" :foreground "#c72d23"))))
- '(ansi-color-bright-red ((t (:background "#fa4a4a" :foreground "#fa4a4a"))))
- '(ansi-color-green ((t (:background "#83b62b" :foreground "#83b62b"))))
- '(ansi-color-bright-green ((t (:background "#bde271" :foreground "#bde271"))))
- '(ansi-color-yellow ((t (:background "#c9c109" :foreground "#c9c109"))))
- '(ansi-color-bright-yellow ((t (:background "#fff27f" :foreground "#fff27f"))))
- '(ansi-color-blue ((t (:background "#5f4dcd" :foreground "#5f4dcd"))))
- '(ansi-color-bright-blue ((t (:background "#a895fe" :foreground "#a895fe"))))
- '(ansi-color-magenta ((t (:background "#c536c9" :foreground "#c536c9"))))
- '(ansi-color-bright-magenta ((t (:background "#f782f7" :foreground "#f782f7"))))
- '(ansi-color-cyan ((t (:background "#039ec3" :foreground "#039ec3"))))
- '(ansi-color-bright-cyan ((t (:background "#5ed6fe" :foreground "#5ed6fe"))))
- '(ansi-color-white ((t (:background "#c8cccd" :foreground "#c8cccd"))))
- '(ansi-color-bright-white ((t (:background "#feffff" :foreground "#feffff"))))
- '(aw-leading-char-face ((t (:foreground "red" :height 5.0))))
- '(cursor ((((class color) (min-colors 89)) (:background "#fe2500"))))
- '(default-italic ((t (:slant italic))))
- '(error ((t (:foreground "#00ffff" :weight bold))))
- '(ffap ((((class color) (min-colors 89)) (:foreground "#c2a580"))))
- '(fixed-pitch ((t (:weight light :height 140 :family "JetBrainsMono Nerd Font Mono"))))
- '(font-latex-bold-face ((((class color) (min-colors 89)) (:foreground "#eee884"))))
- '(font-latex-italic-face ((((class color) (min-colors 89)) (:foreground "#d29d00" :italic t))))
- '(font-latex-match-reference-keywords ((((class color) (min-colors 89)) (:foreground "#f32400"))))
- '(font-latex-match-variable-keywords ((((class color) (min-colors 89)) (:foreground "#d29d00"))))
- '(font-latex-string-face ((((class color) (min-colors 89)) (:foreground "#ffc4ab"))))
- '(font-lock-builtin-face ((((class color) (min-colors 89)) (:foreground "#d96c92"))))
- '(font-lock-comment-face ((((class color) (min-colors 89)) (:foreground "#7a7a7a"))))
- '(font-lock-constant-face ((((class color) (min-colors 89)) (:foreground "#f32400"))))
- '(font-lock-doc-face ((((class color) (min-colors 89)) (:foreground "#7a7a7a"))))
- '(font-lock-function-name-face ((((class color) (min-colors 89)) (:foreground "#f5ec00"))))
- '(font-lock-keyword-face ((((class color) (min-colors 89)) (:bold ((class color) (min-colors 89)) :foreground "#9c3e00"))))
- '(font-lock-negation-char-face ((((class color) (min-colors 89)) (:foreground "#f32400"))))
- '(font-lock-reference-face ((((class color) (min-colors 89)) (:foreground "#f32400"))))
- '(font-lock-string-face ((t (:foreground "#ffc4ab"))))
- '(font-lock-type-face ((((class color) (min-colors 89)) (:foreground "#eee884"))))
- '(font-lock-variable-name-face ((t (:foreground "#d29d00"))))
- '(font-lock-warning-face ((((class color) (min-colors 89)) (:foreground "#ff9000" :background "#431814"))))
- '(fringe ((((class color) (min-colors 89)) (:background "#431814" :foreground "#c2a580"))))
- '(gnus-header-content ((((class color) (min-colors 89)) (:foreground "#9c3e00"))))
- '(gnus-header-from ((((class color) (min-colors 89)) (:foreground "#d29d00"))))
- '(gnus-header-name ((((class color) (min-colors 89)) (:foreground "#eee884"))))
- '(gnus-header-subject ((((class color) (min-colors 89)) (:foreground "#f5ec00" :bold t))))
- '(header-line ((t (:background "#542c29" :foreground "#c2a580" :inverse-video nil :box nil :underline (:color foreground-color :style wave :position nil) :weight bold))))
- '(highlight ((((class color) (min-colors 89)) (:foreground "#d6b68d" :background "#542c29"))))
- '(highlight-indent-guides-even-face ((t (:background "#57422b"))))
- '(highlight-indent-guides-odd-face ((t (:background "#3f2d1c"))))
- '(highlight-indent-guides-top-even-face ((t (:background "#766553"))))
- '(highlight-indent-guides-top-odd-face ((t (:background "#635647"))))
- '(hl-line ((t (:background "#542925"))))
- '(icompletep-determined ((((class color) (min-colors 89)) :foreground "#d96c92")))
- '(ido-first-match ((((class color) (min-colors 89)) (:foreground "#9c3e00" :bold t))))
- '(ido-only-match ((((class color) (min-colors 89)) (:foreground "#ff9000"))))
- '(info-quoted-name ((((class color) (min-colors 89)) (:foreground "#d96c92"))))
- '(info-string ((((class color) (min-colors 89)) (:foreground "#ffc4ab"))))
- '(isearch ((((class color) (min-colors 89)) (:bold t :foreground "#aaaaff" :background "#542c29"))))
- '(ivy-current-match ((((class color) (min-colors 89)) (:underline t :inherit highlight :foreground "#d6b68d"))))
- '(jde-java-font-lock-constant-face ((t (:foreground "#f32400"))))
- '(jde-java-font-lock-modifier-face ((t (:foreground "#ebc89b"))))
- '(jde-java-font-lock-number-face ((t (:foreground "#d29d00"))))
- '(jde-java-font-lock-package-face ((t (:foreground "#d29d00"))))
- '(jde-java-font-lock-private-face ((t (:foreground "#9c3e00"))))
- '(jde-java-font-lock-public-face ((t (:foreground "#9c3e00"))))
- '(jde-jave-font-lock-protected-face ((t (:foreground "#9c3e00"))))
- '(js2-external-variable ((((class color) (min-colors 89)) (:foreground "#eee884"))))
- '(js2-function-param ((((class color) (min-colors 89)) (:foreground "#f32400"))))
- '(js2-jsdoc-html-tag-delimiter ((((class color) (min-colors 89)) (:foreground "#ffc4ab"))))
- '(js2-jsdoc-html-tag-name ((((class color) (min-colors 89)) (:foreground "#d29d00"))))
- '(js2-jsdoc-value ((((class color) (min-colors 89)) (:foreground "#ffc4ab"))))
- '(js2-private-function-call ((((class color) (min-colors 89)) (:foreground "#f32400"))))
- '(js2-private-member ((((class color) (min-colors 89)) (:foreground "#d6b68d"))))
- '(js3-error-face ((((class color) (min-colors 89)) (:underline "#ff9000"))))
- '(js3-external-variable-face ((((class color) (min-colors 89)) (:foreground "#d29d00"))))
- '(js3-function-param-face ((((class color) (min-colors 89)) (:foreground "#ebc89b"))))
- '(js3-instance-member-face ((((class color) (min-colors 89)) (:foreground "#f32400"))))
- '(js3-jsdoc-tag-face ((((class color) (min-colors 89)) (:foreground "#9c3e00"))))
- '(js3-warning-face ((((class color) (min-colors 89)) (:underline "#9c3e00"))))
- '(jupyter-repl-input-prompt ((t (:foreground "white"))))
- '(jupyter-repl-output-prompt ((t (:foreground "#7f7f7f")))) ; same as brightblack
- '(jupyter-repl-traceback ((t (:background "#431814"))))
- '(lazy-highlight ((((class color) (min-colors 89)) (:foreground "#ebc89b" :background "#542c29"))))
- '(line-number ((t (:inherit fringe))))
- '(line-number-current-line ((t (:inherit fringe :foreground "white" :weight bold))))
- '(link ((((class color) (min-colors 89)) (:underline t :foreground "#f4bf00"))))
- '(magit-branch ((((class color) (min-colors 89)) (:foreground "#f32400" :weight bold))))
- '(magit-diff-context-highlight ((((class color) (min-colors 89)) (:background "#542c29" :foreground "#d6b68d"))))
- '(magit-diff-file-header ((((class color) (min-colors 89)) (:foreground "#ebc89b" :background "#542c29"))))
- '(magit-diffstat-added ((((class color) (min-colors 89)) (:foreground "#eee884"))))
- '(magit-diffstat-removed ((((class color) (min-colors 89)) (:foreground "#d29d00"))))
- '(magit-hash ((((class color) (min-colors 89)) (:foreground "#ebc89b"))))
- '(magit-hunk-heading ((t (:background "#542c29"))))
- '(magit-hunk-heading-highlight ((((class color) (min-colors 89)) (:background "#542c29"))))
- '(magit-item-highlight ((t nil)))
- '(magit-log-author ((t (:foreground "#d96c92"))))
- '(magit-process-ng ((((class color) (min-colors 89)) (:foreground "#ff9000" :weight bold))))
- '(magit-process-ok ((((class color) (min-colors 89)) (:foreground "#f5ec00" :weight bold))))
- '(magit-section-heading ((t (:foreground "#9c3e00" :weight bold))))
- '(magit-section-highlight ((t (:background "#4A2F24"))))
- ;; marginalia-key theme inspired by helm-M-x-key:
- ;; https://github.com/emacs-helm/helm/blob/eae4f5a24a2a5d9fac0ec1a9200362bf9efa911b/helm-command.el#L69
- '(marginalia-key ((t (:inherit font-lock-warning-face :weight thin :slant italic))))
- '(menu ((t (:background "#583400"))))
- '(minibuffer-prompt ((((class color) (min-colors 89)) (:bold t :foreground "#9c3e00"))))
- '(mode-line ((t (:background "#785029" :foreground "#e0c98c" :box nil :weight bold))))
- '(mode-line-buffer-id ((((class color) (min-colors 89)) (:bold t :foreground "#fffbca"))))
- '(mode-line-emphasis ((((class color) (min-colors 89)) (:foreground "#f5ec00"))))
- '(mode-line-highlight ((((class color) (min-colors 89)) (:background "#9c3e00" :box nil :weight bold))))
- '(mode-line-inactive ((((class color) (min-colors 89)) (:box (:line-width 1 :style flat-button) :foreground "#d29d00" :background "#2b0400" :weight normal))))
- '(mu4e-cited-1-face ((((class color) (min-colors 89)) (:foreground "#ebc89b"))))
- '(mu4e-cited-7-face ((((class color) (min-colors 89)) (:foreground "#d6b68d"))))
- '(mu4e-header-marks-face ((((class color) (min-colors 89)) (:foreground "#eee884"))))
- '(mu4e-view-url-number-face ((((class color) (min-colors 89)) (:foreground "#eee884"))))
- '(org-block ((t (:inherit (shadow fixed-pitch) :extend t :background "#533A2A" :foreground "#fffbca"))))
- '(org-block-begin-line ((t (:background "#402513" :foreground "#998050" :extend t :inherit org-meta-line))))
- '(org-block-end-line ((t (:background "#402513" :foreground "#998050" :extend t :inherit org-block-begin-line))))
- '(org-checkbox ((t (:inherit (bold fixed-pitch)))))
- '(org-code ((t (:inherit (shadow fixed-pitch)))))
- '(org-document-title ((t (:foreground "#9DDD00" :weight bold :height 2.074))))
- '(org-formula ((t (:foreground "chocolate1" :inherit fixed-pitch))))
- '(org-level-1 ((t (:inherit org-level-8 :extend nil :foreground "#f32400" :height 1.728))))
- '(org-level-2 ((t (:height 1.44 :foreground "#9c3e00" :extend nil :inherit org-level-8))))
- '(org-level-3 ((t (:height 1.2 :foreground "#488800" :extend nil :inherit org-level-8))))
- '(org-level-4 ((t (:height 1.1 :inherit org-level-8 :extend nil :foreground "#d29d00"))))
- '(org-level-8 ((t (:extend nil :weight semi-bold :family "Source Sans Pro"))))
- '(org-meta-line ((t (:inherit (font-lock-comment-face fixed-pitch)))))
- '(org-sexp-date ((((class color) (min-colors 89)) (:foreground "#c2a580"))))
- ;; org-special-keyword used to format org-comment-string, and property entries
- ;; alt: font-lock-property-name-face, font-lock-comment-face (not recommended)
- '(org-special-keyword ((t (:inherit (font-lock-builtin-face fixed-pitch)))))
- '(org-table ((t (:foreground "#f5ec00" :inherit fixed-pitch))))
- '(org-verbatim ((t (:inherit (shadow fixed-pitch)))))
- '(rainbow-delimiters-depth-1-face ((((class color) (min-colors 89)) :foreground "#fffbca")))
- '(rainbow-delimiters-depth-2-face ((((class color) (min-colors 89)) :foreground "#eee884")))
- '(rainbow-delimiters-depth-3-face ((((class color) (min-colors 89)) :foreground "#d29d00")))
- '(rainbow-delimiters-depth-4-face ((((class color) (min-colors 89)) :foreground "#f32400")))
- '(rainbow-delimiters-depth-5-face ((((class color) (min-colors 89)) :foreground "#9c3e00")))
- '(rainbow-delimiters-depth-6-face ((((class color) (min-colors 89)) :foreground "#fffbca")))
- '(rainbow-delimiters-depth-7-face ((((class color) (min-colors 89)) :foreground "#eee884")))
- '(rainbow-delimiters-depth-8-face ((t nil)))
- '(rainbow-delimiters-unmatched-face ((((class color) (min-colors 89)) :foreground "#ff9000")))
- '(region ((t (:background "#554422"))))
- '(show-paren-match ((t (:background "#f5ec00" :foreground "#330400"))))
- '(show-paren-mismatch ((((class color) (min-colors 89)) (:foreground "#330400" :background "#ff9000"))))
- '(slime-repl-inputed-output-face ((((class color) (min-colors 89)) (:foreground "#eee884"))))
- '(success ((t (:foreground "#7bbb00" :weight bold))))
- ;; tab-line theme inspired by https://andreyor.st/posts/2020-05-10-making-emacs-tabs-look-like-in-atom/
- ;; tab-line related faces originally set inherit to nil
- ;; also let (box-width (/ (max 2 (line-pixel-height)) 2)) for non-neg1 box
- '(tab-line ((((class color) (min-colors 89)) (:background "#431814" :foreground "#c2a580" :height 1.0 :box (:line-width -1 :color "#431814" :style flat-button) :inherit variable-pitch)))) ; box was "#ebc898"
- '(tab-line-highlight ((((class color) (min-colors 89)) (:box (:line-width 1 :style flat-button) :inherit highlight))))
- '(tab-line-tab ((((class color) (min-colors 89)) (:background "#785029" :foreground "#e0c98c" :weight normal :box (:line-width 1 :color "#785029" :style flat-button) :inherit nil))))
- ;; colour taken from mode-line
- '(tab-line-tab-current ((((class color) (min-colors 89)) (:background "#785029" :foreground "#e0c98c" :weight normal :box (:line-width 1 :color "#785029") :inherit nil))))
- '(tab-line-tab-inactive ((((class color) (min-colors 89)) (:background "#431814" :foreground "#c2a580" :weight normal :box (:line-width 1 :color "#431814" :style flat-button) :inherit nil))))
- '(telephone-line-accent-active ((t (:foreground "#331400" :background "#9DDD00" :inherit mode-line))))
- '(telephone-line-accent-inactive ((t (:foreground "#331400" :background "#488800" :inherit mode-line-inactive))))
- '(term ((((class color) (min-colors 89)) (:foreground "#fffbca" :background "#330400"))))
- '(term-color-black ((((class color) (min-colors 89)) (:foreground "#542c29" :background "#542c29"))))
- '(term-color-blue ((((class color) (min-colors 89)) (:foreground "#f5ec00" :background "#f5ec00"))))
- '(term-color-cyan ((((class color) (min-colors 89)) (:foreground "#ffc4ab" :background "#ffc4ab"))))
- '(term-color-green ((((class color) (min-colors 89)) (:foreground "#eee884" :background "#542c29"))))
- '(term-color-magenta ((((class color) (min-colors 89)) (:foreground "#d96c92" :background "#d96c92"))))
- '(term-color-red ((((class color) (min-colors 89)) (:foreground "#9c3e00" :background "#542c29"))))
- '(term-color-white ((((class color) (min-colors 89)) (:foreground "#ebc89b" :background "#ebc89b"))))
- '(term-color-yellow ((((class color) (min-colors 89)) (:foreground "#d29d00" :background "#d29d00"))))
- '(trailing-whitespace ((((class color) (min-colors 89)) :background "#ff9000")))
- '(tty-menu-disabled-face ((t (:background "#7A5600" :foreground "lightgray"))))
- '(tty-menu-enabled-face ((t (:background "#7A5600" :foreground "#FFFBCA" :weight bold))))
- '(tty-menu-selected-face ((t (:background "#9C7822"))))
- '(undo-tree-visualizer-current-face ((((class color) (min-colors 89)) :foreground "#d96c92")))
- '(undo-tree-visualizer-default-face ((((class color) (min-colors 89)) :foreground "#ebc89b")))
- '(undo-tree-visualizer-register-face ((((class color) (min-colors 89)) :foreground "#eee884")))
- '(undo-tree-visualizer-unmodified-face ((((class color) (min-colors 89)) :foreground "#d29d00")))
- '(variable-pitch ((t (:weight light :family "Source Sans Pro"))))
- '(vertical-border ((t (:foreground "#77664f"))))
- '(warning ((((class color) (min-colors 89)) (:foreground "#55aaff"))))
- '(web-mode-builtin-face ((((class color) (min-colors 89)) (:inherit font-lock-builtin-face))))
- '(web-mode-comment-face ((((class color) (min-colors 89)) (:inherit font-lock-comment-face))))
- '(web-mode-constant-face ((((class color) (min-colors 89)) (:inherit font-lock-constant-face))))
- '(web-mode-doctype-face ((((class color) (min-colors 89)) (:inherit font-lock-comment-face))))
- '(web-mode-function-name-face ((((class color) (min-colors 89)) (:inherit font-lock-function-name-face))))
- '(web-mode-html-attr-name-face ((((class color) (min-colors 89)) (:foreground "#f5ec00"))))
- '(web-mode-html-attr-value-face ((((class color) (min-colors 89)) (:foreground "#9c3e00"))))
- '(web-mode-html-tag-face ((((class color) (min-colors 89)) (:foreground "#d96c92"))))
- '(web-mode-keyword-face ((((class color) (min-colors 89)) (:foreground "#9c3e00"))))
- '(web-mode-string-face ((((class color) (min-colors 89)) (:foreground "#ffc4ab"))))
- '(web-mode-type-face ((((class color) (min-colors 89)) (:inherit font-lock-type-face))))
- '(web-mode-warning-face ((((class color) (min-colors 89)) (:inherit font-lock-warning-face))))
- '(yas-field-highlight-face ((t (:background "#64403d")))))
+;; Copyright © 2023-2025, by ed9w2in6
+
+;; This file is not part of GNU Emacs.
+
+;;; License:
+
+;; You can redistribute this program and/or modify it under the terms of the GNU General Public License version 2.
+
+;; Author: ed9w2in6
+;; Version: 1.0
+;; Created: [2023-08-13]
+;; Keywords: theme
+;; Homepage: http://github.com/ed9w2in6/wood-theme.el
+;; Package-Requires: ((autothemer "0.2.18") (emacs "26.1"))
+
+;;; Commentary:
+
+;; A warm theme inspired by wood and plants colours.
+
+;;; Code:
+
+(require 'autothemer)
+
+;; Check if the user's Emacs version is at least 26.1
+;; (let ((maj-ver 26)
+;;       (min-ver 1))
+;;   (unless (or (> emacs-major-version maj-ver)
+;;               (and (= emacs-major-version maj-ver)
+;;                    (>= emacs-minor-version min-ver)))
+;;     (error "Need Emacs >= %d.%d" maj-ver min-ver)))
+
+(defgroup wood nil
+  "Customization for the Wood theme family.
+
+Most if not all of the customization MUST be set before theme load."
+  :group 'faces)
+
+(defcustom wood-tab-line-box-line-width 14
+  "The tab-line height, for tab-line face's box line-width.
+
+It is recommended to do this in your config:
+
+\(if (display-graphic-p)
+    (/ (max 2 (line-pixel-height)) 2)
+    -1)"
+  :type 'integer
+  :group 'wood)
+
+(defcustom wood-default-face-height 140
+  "Height in 1/10 pt unit for the default face.
+
+Height of other faces are defined relatively to this."
+  :type 'integer
+  :group 'wood)
+
+(defcustom wood-default-face-font-family nil
+  "Font family for the default face."
+  :type 'string
+  :group 'wood)
+
+(defcustom wood-variable-pitch-face-font-family nil
+  "Font family for the variable pitch face."
+  :type 'string
+  :group 'wood)
+
+(autothemer-deftheme wood-dark
+  "A dark theme inspired by wood textures"
+                     
+  ;; declare color classes to use
+  ((((class color) (min-colors #xffffff)) ; 24 bit color
+    ;; ((class color) (min-colors #xff))  ; 256-color
+    )
+  
+    ;; Define colours, one columns per class in order
+    ;; Woods (main)
+    (wood-bark-dark "#2b0400")
+    (wood-bark "#331400")
+    (wood-bark-light "#401900") ; result of auto wood-indent from #331400
+    (wood-sap "#402510")        ; slight blue for contrast
+    (wood-sap-light "#533a2a")  ; More yellow for contrast, region face was #554422, menu was #583400
+    (wood-heart "#542c29")
+    (wood-heart-light "#785029") ; verticle-boarder was #76664f
+    (wood-birch-mute "#ebc89b")
+    (wood-birch "#ffc4ab")
+    (wood-birch-light "#fffbca")
+  
+    ;; Leafs (accent)
+    (wood-leaf "#488800")
+    (wood-leaf-young "#7bbb00")
+    (wood-leaf-sprout "#9ddd00")
+    (wood-leaf-bottom "#bde271")
+    (wood-leaf-old "#f5ec00")
+    (wood-leaf-old-light "#eeee88")
+    (wood-leaf-dry "#e39b00")
+    (wood-leaf-dry-dark "#998050")
+    (wood-leaf-momiji "#ff6900")
+    
+    ;; Flowers (emphasis)
+    (wood-rose "#ba0016")
+    (wood-rose-light "#ec6481") ; #d96c92 #ec6481 #ff5d71
+    (wood-lilac "#7d1636")
+    (wood-lilac-light "#e372d9") ; #f782f7 #d96c92
+    (wood-iris "#5f4dcd")
+    (wood-iris-light "#aaaaff")
+    (wood-sky "#55aaff")
+    (wood-sky-light "#55eeff")
+    
+    ;; Monochrome (muted). indent guide was but never used #3f2d1c #766553
+    (wood-soot "#161616")
+    (wood-ash-dark "#7a7a7a")
+    (wood-ash "#c8cccd")
+    (wood-ash-light "#feffff"))
+
+  ;; Config faces.  Symbols that not palette name MUST be quoted, e.g. ... :weight 'bold
+  ((default (:height wood-default-face-height :family wood-default-face-font-family :background wood-bark :foreground wood-birch-light))
+   (fixed-pitch (:weight 'light :inherit 'default))
+   (variable-pitch (:weight 'light :family wood-variable-pitch-face-font-family))
+   (ac-completion-face (:underline t :foreground wood-lilac))
+   (widget-field (:inherit 'org-block)) ; (:background wood-sap-light :foreground wood-birch-light)
+   
+   (ansi-color-black (:background wood-soot :foreground wood-soot))
+   (ansi-color-bright-black (:background wood-ash-dark :foreground wood-ash-dark))
+   (ansi-color-red (:background wood-rose :foreground wood-rose))
+   (ansi-color-bright-red (:background wood-rose-light :foreground wood-rose-light))
+   (ansi-color-green (:background wood-leaf-young :foreground wood-leaf-young))
+   (ansi-color-bright-green (:background wood-leaf-bottom :foreground wood-leaf-bottom))
+   (ansi-color-yellow (:background wood-leaf-old :foreground wood-leaf-old))
+   (ansi-color-bright-yellow (:background wood-leaf-old-light :foreground wood-leaf-old-light))
+   (ansi-color-blue (:background wood-iris :foreground wood-iris))
+   (ansi-color-bright-blue (:background wood-iris-light :foreground wood-iris-light))
+   (ansi-color-magenta (:background wood-lilac :foreground wood-lilac))
+   (ansi-color-bright-magenta (:background wood-lilac-light :foreground wood-lilac-light))
+   (ansi-color-cyan (:background wood-sky :foreground wood-sky))
+   (ansi-color-bright-cyan (:background wood-sky-light :foreground wood-sky-light))
+   (ansi-color-white (:background wood-ash :foreground wood-ash))
+   (ansi-color-bright-white (:background wood-ash-light :foreground wood-ash-light))
+   ;; term color inherits from ansi, hence removed, see term.el
+   
+   (aw-leading-char-face (:foreground wood-rose :height 5.0))
+   (cursor (:background wood-rose))
+   (default-italic (:slant 'italic))
+   (error (:foreground wood-sky-light :weight 'bold))
+   ;; rely on inherit for now
+   ;; (flycheck-error (:inherit 'error))
+   ;; (flycheck-warning (:inherit 'warning))
+   ;; (flycheck-info (:inherit 'success))
+   ;; (ffap (:foreground wood-birch-mute))
+   
+   (font-latex-bold-face (:foreground wood-leaf-bottom))
+   (font-latex-italic-face (:foreground wood-leaf-dry :slant 'italic))
+   (font-latex-match-reference-keywords (:foreground wood-rose))
+   (font-latex-match-variable-keywords (:foreground wood-leaf-dry))
+   (font-latex-string-face (:foreground wood-birch))
+   (font-lock-builtin-face (:foreground wood-rose-light))
+   (font-lock-comment-face (:foreground wood-ash-dark))
+   (font-lock-constant-face (:foreground wood-rose))
+   (font-lock-doc-face (:foreground wood-ash-dark))
+   (font-lock-function-name-face (:foreground wood-leaf-old))
+   (font-lock-keyword-face (:weight 'bold :foreground wood-lilac))
+   (font-lock-negation-char-face (:foreground wood-rose))
+   (font-lock-reference-face (:foreground wood-rose))
+   (font-lock-string-face (:foreground wood-birch))
+   (font-lock-type-face (:foreground wood-leaf-bottom))
+   (font-lock-variable-name-face (:foreground wood-leaf-dry))
+   (font-lock-warning-face (:foreground wood-leaf-momiji)) ; :background wood-bark-light
+   (fringe (:background wood-bark-light :foreground wood-birch-mute))
+   (gnus-header-content (:foreground wood-lilac))
+   (gnus-header-from (:foreground wood-leaf-dry))
+   (gnus-header-name (:foreground wood-leaf-bottom))
+   (gnus-header-subject (:foreground wood-leaf-old :weight 'bold))
+   (header-line (:background wood-heart :foreground wood-birch-mute :inverse-video nil :box nil
+                             :underline (:color wood-birch-light :style 'wave :position nil) :weight 'bold))
+   (highlight (:background wood-heart :foreground wood-birch-mute))
+   ;; highlight-indent-guides auto calculates from theme, hence removed, see highlight-indent-guides.el
+
+   (hl-line (:background wood-sap))
+   (icompletep-determined (:foreground wood-rose-light))
+   (ido-first-match (:foreground wood-lilac :weight 'bold))
+   (ido-only-match (:foreground wood-leaf-momiji))
+   (info-quoted-name (:foreground wood-rose-light))
+   (info-string (:foreground wood-birch))
+   
+   (isearch (:weight 'bold :foreground wood-iris-light :background wood-heart))
+   (ivy-current-match (:underline t :inherit 'highlight :foreground wood-iris-light))
+   
+   (jde-java-font-lock-constant-face (:foreground wood-rose))
+   (jde-java-font-lock-modifier-face (:foreground wood-birch-mute))
+   (jde-java-font-lock-number-face (:foreground wood-leaf-dry))
+   (jde-java-font-lock-package-face (:foreground wood-leaf-dry))
+   (jde-java-font-lock-private-face (:foreground wood-lilac))
+   (jde-java-font-lock-public-face (:foreground wood-lilac))
+   (jde-jave-font-lock-protected-face (:foreground wood-lilac))
+   (js2-external-variable (:foreground wood-leaf-bottom))
+   (js2-function-param (:foreground wood-rose))
+   (js2-jsdoc-html-tag-delimiter (:foreground wood-birch))
+   (js2-jsdoc-html-tag-name (:foreground wood-leaf-dry))
+   (js2-jsdoc-value (:foreground wood-birch))
+   (js2-private-function-call (:foreground wood-rose))
+   (js2-private-member (:foreground wood-birch-mute))
+   (js3-error-face (:underline wood-leaf-momiji))
+   (js3-external-variable-face (:foreground wood-leaf-dry))
+   (js3-function-param-face (:foreground wood-birch-mute))
+   (js3-instance-member-face (:foreground wood-rose))
+   (js3-jsdoc-tag-face (:foreground wood-lilac))
+   (js3-warning-face (:underline wood-lilac))
+
+   (jupyter-repl-input-prompt (:foreground wood-birch-light))
+   (jupyter-repl-output-prompt (:foreground wood-ash-dark))
+   (jupyter-repl-traceback (:background wood-bark))
+   (jupyter-eval-overlay (:weight 'bold :foreground wood-sky))
+
+   (lazy-highlight (:foreground wood-birch-mute :background wood-heart))
+   (line-number (:inherit 'fringe))
+   (line-number-current-line (:inherit 'fringe :foreground wood-birch-light :weight 'bold))
+   (link (:underline t :foreground wood-leaf-dry))
+   (magit-branch (:foreground wood-rose :weight 'bold))
+   (magit-diff-context-highlight (:background wood-heart :foreground wood-birch-mute))
+   (magit-diff-file-header (:foreground wood-birch-mute :background wood-heart))
+   (magit-diffstat-added (:foreground wood-leaf-bottom))
+   (magit-diffstat-removed (:foreground wood-leaf-dry))
+   (magit-hash (:foreground wood-birch-mute))
+   (magit-hunk-heading (:background wood-heart))
+   (magit-hunk-heading-highlight (:background wood-heart))
+   ;; (magit-item-highlight nil)
+   (magit-log-author (:foreground wood-rose-light))
+   (magit-process-ng (:foreground wood-leaf-momiji :weight 'bold))
+   (magit-process-ok (:foreground wood-leaf-old :weight 'bold))
+   (magit-section-heading (:foreground wood-lilac :weight 'bold))
+   (magit-section-highlight (:background wood-sap))
+   ;; marginalia-key theme inspired by helm-M-x-key:
+   ;; https://github.com/emacs-helm/helm/blob/eae4f5a24a2a5d9fac0ec1a9200362bf9efa911b/helm-command.el#L69
+   (marginalia-key (:inherit 'font-lock-warning-face :weight 'thin :slant 'italic))
+   (menu (:background wood-sap-light))
+   (minibuffer-prompt (:weight 'bold :foreground wood-lilac))
+
+   (mode-line (:background wood-heart-light :foreground wood-birch-mute :box nil :weight 'bold))
+   (mode-line-buffer-id (:foreground wood-birch-light))
+   (mode-line-emphasis (:foreground wood-leaf-old))
+   (mode-line-highlight (:background wood-heart))
+   (mode-line-inactive (:background wood-bark-dark :foreground wood-leaf-dry :weight 'normal))
+   
+   (mu4e-cited-1-face (:foreground wood-birch-mute))
+   (mu4e-cited-7-face (:foreground wood-birch-mute))
+   (mu4e-header-marks-face (:foreground wood-leaf-bottom))
+   (mu4e-view-url-number-face (:foreground wood-leaf-bottom))
+   (org-block (:inherit '(shadow fixed-pitch) :extend t :background wood-sap-light :foreground wood-birch-light))
+   (org-block-begin-line (:background wood-sap :foreground wood-leaf-dry-dark :extend t :inherit 'org-meta-line))
+   (org-block-end-line (:background wood-sap :foreground wood-leaf-dry-dark :extend t :inherit 'org-block-begin-line))
+   (org-checkbox (:inherit '(bold fixed-pitch)))
+   (org-code (:inherit '(shadow fixed-pitch)))
+   (org-document-title (:foreground wood-leaf-sprout :weight 'bold :height 2.074))
+   (org-formula (:foreground wood-leaf-momiji :inherit 'fixed-pitch))
+   (org-level-1 (:inherit 'org-level-8 :extend nil :foreground wood-rose :height 1.728))
+   (org-level-2 (:height 1.44 :foreground wood-lilac :extend nil :inherit 'org-level-8))
+   (org-level-3 (:height 1.2 :foreground wood-leaf :extend nil :inherit 'org-level-8))
+   (org-level-4 (:height 1.1 :inherit 'org-level-8 :extend nil :foreground wood-leaf-dry))
+   (org-level-8 (:extend nil :weight 'semi-bold :inherit 'variable-pitch))
+   (org-link (:foreground wood-leaf-dry :inherit 'link))
+   (org-meta-line (:inherit '(font-lock-comment-face fixed-pitch)))
+   (org-sexp-date (:background wood-ash-dark :foreground wood-soot :distant-foreground wood-ash-light))
+   
+   ;; org-special-keyword used to format org-comment-string, and property entries
+   ;; alt: font-lock-property-name-face, font-lock-comment-face (not recommended)
+   (org-special-keyword (:inherit '(font-lock-builtin-face fixed-pitch)))
+   (org-table (:foreground wood-leaf-old :inherit 'fixed-pitch))
+   (org-verbatim (:inherit '(shadow fixed-pitch)))
+   
+   (rainbow-delimiters-depth-1-face (:foreground wood-birch-light))
+   (rainbow-delimiters-depth-2-face (:foreground wood-leaf-bottom))
+   (rainbow-delimiters-depth-3-face (:foreground wood-leaf-dry))
+   (rainbow-delimiters-depth-4-face (:foreground wood-rose))
+   (rainbow-delimiters-depth-5-face (:foreground wood-lilac))
+   (rainbow-delimiters-depth-6-face (:foreground wood-birch-light))
+   (rainbow-delimiters-depth-7-face (:foreground wood-leaf-bottom))
+   ;; (rainbow-delimiters-depth-8-face nil)
+   (rainbow-delimiters-unmatched-face (:foreground wood-leaf-momiji))
+   
+   (region (:inverse-video t))
+   (show-paren-match (:background wood-leaf-old :foreground wood-bark :inverse-video nil))
+   (show-paren-mismatch (:foreground wood-bark :background wood-leaf-momiji :inverse-video))
+   (slime-repl-inputed-output-face (:foreground wood-leaf-bottom))
+   (success (:foreground wood-leaf-young :weight 'bold))
+
+   ;; tab-line related faces originally set inherit to nil
+   (tab-line (:background wood-bark-dark :foreground wood-birch-mute :weight 'bold :height 1.0 :box (:line-width -1 :color wood-bark-dark) :inherit 'variable-pitch))
+   (tab-line-tab (:background wood-heart-light :box (:line-width wood-tab-line-box-line-width :color wood-heart-light) :inherit 'tab-line))
+   ;; colour matching mode-line
+   (tab-line-tab-current (:background wood-heart-light :box (:line-width wood-tab-line-box-line-width :color wood-heart-light) :inherit 'tab-line))
+   (tab-line-tab-inactive (:box (:line-width wood-tab-line-box-line-width :color wood-bark-dark) :inherit 'tab-line))
+   (tab-line-tab-modified (:foreground wood-sky))
+   (tab-line-highlight (:background wood-heart :inherit 'tab-line))
+   
+   (telephone-line-accent-active (:foreground wood-bark :background wood-leaf-sprout :inherit 'mode-line))
+   (telephone-line-accent-inactive (:foreground wood-bark :background wood-leaf :inherit 'mode-line-inactive))
+   ;; (yas-field-highlight-face (:background wood-sap-light))
+   
+   (trailing-whitespace (:background wood-leaf-momiji))
+   (tty-menu-disabled-face (:background wood-sap :foreground wood-ash-dark))
+   (tty-menu-enabled-face (:background wood-sap :foreground wood-leaf-dry-dark :weight 'bold))
+   (tty-menu-selected-face (:background wood-sap-light))
+
+   (undo-tree-visualizer-current-face (:foreground wood-rose-light))
+   (undo-tree-visualizer-default-face (:foreground wood-birch-mute))
+   (undo-tree-visualizer-register-face (:foreground wood-leaf-bottom))
+   (undo-tree-visualizer-unmodified-face (:foreground wood-leaf-dry))
+
+   (vertical-border (:foreground wood-heart-light))
+   (warning (:foreground wood-sky))
+   (web-mode-builtin-face (:inherit 'font-lock-builtin-face))
+   (web-mode-comment-face (:inherit 'font-lock-comment-face))
+   (web-mode-constant-face (:inherit 'font-lock-constant-face))
+   (web-mode-doctype-face (:inherit 'font-lock-comment-face))
+   (web-mode-function-name-face (:inherit 'font-lock-function-name-face))
+   (web-mode-html-attr-name-face (:foreground wood-leaf-old))
+   (web-mode-html-attr-value-face (:foreground wood-lilac))
+   (web-mode-html-tag-face (:foreground wood-rose-light))
+   (web-mode-keyword-face (:foreground wood-lilac))
+   (web-mode-string-face (:foreground wood-birch))
+   (web-mode-type-face (:inherit 'font-lock-type-face))
+   (web-mode-warning-face (:inherit 'font-lock-warning-face)))
+
+  ;; Forms after the face specifications are evaluated.
+  ;; (palette vars can be used, read below for details.)
+  ;; (custom-theme-set-variables 'example-name
+  ;;     `(ansi-color-names-vector [,wood-rose
+  ;;                                ,wood-leaf-young
+  ;;                                ,wood-iris
+  ;;                                ,wood-lilac
+  ;;                                ,wood-leaf-old
+  ;;                                ,wood-leaf-momiji
+  ;;                                ,wood-sky-light]))
+  )
 
 ;;;###autoload
 (when (and (boundp 'custom-theme-load-path) load-file-name)
@@ -202,3 +339,4 @@
                (file-name-as-directory (file-name-directory load-file-name))))
 
 (provide-theme 'wood-dark)
+;;; wood-dark-theme.el ends here
