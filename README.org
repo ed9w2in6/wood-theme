@@ -30,11 +30,11 @@
    :type git
    :host github
    :repo "jasonm23/autothemer"))
-(use-package wood-dark-theme
+(use-package wood-theme
   :straight (wood-theme
     :type git
     :host github
-    :repo "ed9w2in6/wood-theme.git")
+    :repo "ed9w2in6/wood-theme")
   :after autothemer
   :init
   ;; Change these accordingly, MUST be evaluated before load-theme
@@ -45,7 +45,7 @@
         wood-default-face-font-family "VictorMono Nerd Font Mono"
         wood-variable-pitch-face-font-family "Source Sans Pro"
         )
-  :config (load-theme 'wood-dark t))
+  :config (load-theme 'wood t))
    #+end_src
 
    As of [2024-05-05 Sun], the only alternative is by manual installtion.
