@@ -1,5 +1,5 @@
 #+TITLE:wood-theme
-* About
+* Design Philosophy
   A warm, wood-tone colour theme that aims to be gentle on the eyes.
 
   Not sure if I can call this my design philosophy, but I have roughly followed these rules:
@@ -7,7 +7,8 @@
     - Use warm, wood-tone colour whenever possible
   + Low-saturation low-blue
     - Avoid high-saturation colours, especially blue
-    - I believe this caused eye strain ([[http://web.mit.edu/6.813/www/sp16/classes/16-color/#design-guidelines][ref]])
+    - I believe this caused eye strain
+      * ref: http://web.mit.edu/6.813/www/sp16/classes/16-color/#design-guidelines
   + Practical
     - break the rules sparingly if it does not work practically
     - e.g. use high-saturation red and green for highlights
@@ -15,25 +16,41 @@
 
   This theme suits best to people who need to stare at the screen for long periods.
   My testimony is that this /seems/ to have fixed my eye strains.
-
+* Known issues and notes
   As of [2024-05-05 Sun], this is implemented for Emacs only.
-* Installation
+  Since I am only using Emacs in the terminal some GUI elements may not be themed properly.
+  I am also abusing face inheritance so some face will stick when switching from another theme.
+  The intended usage is therefore loading on startup and not changing theme.
+* Installation and setup
 ** Emacs
-   If you use =straight.el= do:
+   Requires [[https://github.com/jasonm23/autothemer][Github - jasonm23/autothemer]], if you use =straight.el= do:
    #+begin_src emacs-lisp :results output scalar :eval no
-(use-package wood-dark-theme
- :straight (wood-theme
+(use-package autothemer
+ :straight (autothemer
    :type git
    :host github
-   :repo "ed9w2in6/wood-theme"
-   )
-  :config
-  (load-theme 'wood-dark))
+   :repo "jasonm23/autothemer"))
+(use-package wood-dark-theme
+  :straight (wood-theme
+    :type git
+    :host github
+    :repo "ed9w2in6/wood-theme.git")
+  :after autothemer
+  :init
+  ;; Change these accordingly, MUST be evaluated before load-theme
+  (setq wood-tab-line-box-line-width (if (display-graphic-p)
+                                         (/ (max 2 (line-pixel-height)) 2)
+                                         -1)
+        wood-default-face-height 180
+        wood-default-face-font-family "VictorMono Nerd Font Mono"
+        wood-variable-pitch-face-font-family "Source Sans Pro"
+        )
+  :config (load-theme 'wood-dark t))
    #+end_src
 
-  As of [2024-05-05 Sun], the only alternative is by manual installtion.
-  You'll have to clone this repo, put the relavent files to your Emacs
-  home directory, or add the path the cloned repo to =custom-theme-load-path=.
+   As of [2024-05-05 Sun], the only alternative is by manual installtion.
+   You'll have to clone this repo, put the relavent files to your Emacs
+   home directory, or add the path the cloned repo to =custom-theme-load-path=.
 * Workflow
   As I intend this for personal use only, the work flow is kept simple and manual:
 
@@ -44,19 +61,20 @@
   2. Record all annoyance in this document
   3. Open for improvment after 1 week freeze
 * Annoyances
-  Nothing for now. ([2024-03-21 Thu])
+  Nothing for now. ([2025-03-12 Wed])
 * Future Work
-  + redo with https://github.com/jasonm23/autothemer
-    - benefit is that common color uses same colour name.
-    - pallete generation
-    - auto generation for missing component using colour distance
-    - easier maintainence and customisation
-      * variance definition (e.g. wood-light)
   + choose some modes for face review, ensure meaning are consistent
     - e.g. always gray when comment related
-  + maybe use some orange / brown for some faces?
+  + maybe use some orange / brown for some faces?  Seems too few oranges.
     - [2023-08-18 Fri] :: actually I can't pin point any that annoys me.
 * Change Log
+** week of [2025-03-12 Wed]
+   + redo with https://github.com/jasonm23/autothemer
+     - benefit is that common color uses same colour name.
+     - pallete generation
+     - auto generation for missing component using colour distance
+     - easier maintainence and customisation
+       * variance definition (e.g. wood-light)
 ** week of [2024-03-21 Thu]
    + custom =marginalia-key= face for helm-like keybind hint face
 ** from git log [2023-12-01 Fri]
