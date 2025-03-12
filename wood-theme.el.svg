@@ -1,0 +1,303 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="970px" height="780px"
+     version="1.1"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+  <style>
+    text {
+    font-family: "Source Sans Pro";
+    fill: #e39b00;
+    }
+  </style>
+  <rect x="0" y="0" rx="10" width="970px" height="780px" id="background-panel" fill="#331400"/>
+  <g transform="translate(14,10)">
+    <a xlink:href="http://github.com/ed9w2in6/wood-theme.el">
+    <text style="font-size:42pt;" font-weight="bold" x="3%" y="50" id="theme-name">wood</text>
+    <text style="font-size:12pt;" x="4%" y="75" id="theme-description">A warm theme inspired by wood and plants colours.</text>
+    <text style="font-size:8pt;fill: #eeee88" text-anchor="end" x="95%" y="20" id="theme-url">http://github.com/ed9w2in6/wood-theme.el</text>
+    </a>
+  </g>
+  <g transform="translate(70,-40)">
+    <g transform="translate(30,120),rotate(40)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#161616"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#2b0400"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">BARK-DARK</text>
+ <text style="font-size:7pt; fill:#eeee88;" font-weight="bold" x="52" y="134" id="color">#2b0400</text>
+ <!-- Rect below is for debug set stroke width to be visible -->
+   <rect x="0" y="0" width="130px" height="120px" class="debug-rect" fill-opacity="0.0" stroke-width="0.0mm" stroke="#FF8000"/>
+</g>
+
+<g transform="translate(160,120),rotate(40)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#161616"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#331400"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">BARK</text>
+ <text style="font-size:7pt; fill:#eeee88;" font-weight="bold" x="52" y="134" id="color">#331400</text>
+ <!-- Rect below is for debug set stroke width to be visible -->
+   <rect x="0" y="0" width="130px" height="120px" class="debug-rect" fill-opacity="0.0" stroke-width="0.0mm" stroke="#FF8000"/>
+</g>
+
+<g transform="translate(290,120),rotate(40)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#161616"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#401900"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">BARK-LIGHT</text>
+ <text style="font-size:7pt; fill:#eeee88;" font-weight="bold" x="52" y="134" id="color">#401900</text>
+ <!-- Rect below is for debug set stroke width to be visible -->
+   <rect x="0" y="0" width="130px" height="120px" class="debug-rect" fill-opacity="0.0" stroke-width="0.0mm" stroke="#FF8000"/>
+</g>
+
+<g transform="translate(420,120),rotate(40)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#161616"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#402510"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">SAP</text>
+ <text style="font-size:7pt; fill:#eeee88;" font-weight="bold" x="52" y="134" id="color">#402510</text>
+ <!-- Rect below is for debug set stroke width to be visible -->
+   <rect x="0" y="0" width="130px" height="120px" class="debug-rect" fill-opacity="0.0" stroke-width="0.0mm" stroke="#FF8000"/>
+</g>
+
+<g transform="translate(550,120),rotate(40)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#161616"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#542c29"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">HEART</text>
+ <text style="font-size:7pt; fill:#eeee88;" font-weight="bold" x="52" y="134" id="color">#542c29</text>
+ <!-- Rect below is for debug set stroke width to be visible -->
+   <rect x="0" y="0" width="130px" height="120px" class="debug-rect" fill-opacity="0.0" stroke-width="0.0mm" stroke="#FF8000"/>
+</g>
+
+<g transform="translate(680,120),rotate(40)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#161616"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#533a2a"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">SAP-LIGHT</text>
+ <text style="font-size:7pt; fill:#eeee88;" font-weight="bold" x="52" y="134" id="color">#533a2a</text>
+ <!-- Rect below is for debug set stroke width to be visible -->
+   <rect x="0" y="0" width="130px" height="120px" class="debug-rect" fill-opacity="0.0" stroke-width="0.0mm" stroke="#FF8000"/>
+</g>
+
+<g transform="translate(810,120),rotate(40)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#161616"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#161616"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">SOOT</text>
+ <text style="font-size:7pt; fill:#eeee88;" font-weight="bold" x="52" y="134" id="color">#161616</text>
+ <!-- Rect below is for debug set stroke width to be visible -->
+   <rect x="0" y="0" width="130px" height="120px" class="debug-rect" fill-opacity="0.0" stroke-width="0.0mm" stroke="#FF8000"/>
+</g>
+
+<g transform="translate(30,240),rotate(40)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#161616"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#488800"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">LEAF</text>
+ <text style="font-size:7pt; fill:#eeee88;" font-weight="bold" x="52" y="134" id="color">#488800</text>
+ <!-- Rect below is for debug set stroke width to be visible -->
+   <rect x="0" y="0" width="130px" height="120px" class="debug-rect" fill-opacity="0.0" stroke-width="0.0mm" stroke="#FF8000"/>
+</g>
+
+<g transform="translate(160,240),rotate(40)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#161616"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#7d1636"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">LILAC</text>
+ <text style="font-size:7pt; fill:#eeee88;" font-weight="bold" x="52" y="134" id="color">#7d1636</text>
+ <!-- Rect below is for debug set stroke width to be visible -->
+   <rect x="0" y="0" width="130px" height="120px" class="debug-rect" fill-opacity="0.0" stroke-width="0.0mm" stroke="#FF8000"/>
+</g>
+
+<g transform="translate(290,240),rotate(40)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#161616"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#785029"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">HEART-LIGHT</text>
+ <text style="font-size:7pt; fill:#eeee88;" font-weight="bold" x="52" y="134" id="color">#785029</text>
+ <!-- Rect below is for debug set stroke width to be visible -->
+   <rect x="0" y="0" width="130px" height="120px" class="debug-rect" fill-opacity="0.0" stroke-width="0.0mm" stroke="#FF8000"/>
+</g>
+
+<g transform="translate(420,240),rotate(40)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#161616"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#998050"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">LEAF-DRY-DARK</text>
+ <text style="font-size:7pt; fill:#eeee88;" font-weight="bold" x="52" y="134" id="color">#998050</text>
+ <!-- Rect below is for debug set stroke width to be visible -->
+   <rect x="0" y="0" width="130px" height="120px" class="debug-rect" fill-opacity="0.0" stroke-width="0.0mm" stroke="#FF8000"/>
+</g>
+
+<g transform="translate(550,240),rotate(40)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#161616"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#7a7a7a"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">ASH-DARK</text>
+ <text style="font-size:7pt; fill:#eeee88;" font-weight="bold" x="52" y="134" id="color">#7a7a7a</text>
+ <!-- Rect below is for debug set stroke width to be visible -->
+   <rect x="0" y="0" width="130px" height="120px" class="debug-rect" fill-opacity="0.0" stroke-width="0.0mm" stroke="#FF8000"/>
+</g>
+
+<g transform="translate(680,240),rotate(40)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#161616"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#7bbb00"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">LEAF-YOUNG</text>
+ <text style="font-size:7pt; fill:#eeee88;" font-weight="bold" x="52" y="134" id="color">#7bbb00</text>
+ <!-- Rect below is for debug set stroke width to be visible -->
+   <rect x="0" y="0" width="130px" height="120px" class="debug-rect" fill-opacity="0.0" stroke-width="0.0mm" stroke="#FF8000"/>
+</g>
+
+<g transform="translate(810,240),rotate(40)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#161616"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#9ddd00"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">LEAF-SPROUT</text>
+ <text style="font-size:7pt; fill:#eeee88;" font-weight="bold" x="52" y="134" id="color">#9ddd00</text>
+ <!-- Rect below is for debug set stroke width to be visible -->
+   <rect x="0" y="0" width="130px" height="120px" class="debug-rect" fill-opacity="0.0" stroke-width="0.0mm" stroke="#FF8000"/>
+</g>
+
+<g transform="translate(30,360),rotate(40)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#161616"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#f5ec00"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">LEAF-OLD</text>
+ <text style="font-size:7pt; fill:#eeee88;" font-weight="bold" x="52" y="134" id="color">#f5ec00</text>
+ <!-- Rect below is for debug set stroke width to be visible -->
+   <rect x="0" y="0" width="130px" height="120px" class="debug-rect" fill-opacity="0.0" stroke-width="0.0mm" stroke="#FF8000"/>
+</g>
+
+<g transform="translate(160,360),rotate(40)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#161616"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#e39b00"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">LEAF-DRY</text>
+ <text style="font-size:7pt; fill:#eeee88;" font-weight="bold" x="52" y="134" id="color">#e39b00</text>
+ <!-- Rect below is for debug set stroke width to be visible -->
+   <rect x="0" y="0" width="130px" height="120px" class="debug-rect" fill-opacity="0.0" stroke-width="0.0mm" stroke="#FF8000"/>
+</g>
+
+<g transform="translate(290,360),rotate(40)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#161616"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#ff6900"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">LEAF-MOMIJI</text>
+ <text style="font-size:7pt; fill:#eeee88;" font-weight="bold" x="52" y="134" id="color">#ff6900</text>
+ <!-- Rect below is for debug set stroke width to be visible -->
+   <rect x="0" y="0" width="130px" height="120px" class="debug-rect" fill-opacity="0.0" stroke-width="0.0mm" stroke="#FF8000"/>
+</g>
+
+<g transform="translate(420,360),rotate(40)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#161616"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#ba0016"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">ROSE</text>
+ <text style="font-size:7pt; fill:#eeee88;" font-weight="bold" x="52" y="134" id="color">#ba0016</text>
+ <!-- Rect below is for debug set stroke width to be visible -->
+   <rect x="0" y="0" width="130px" height="120px" class="debug-rect" fill-opacity="0.0" stroke-width="0.0mm" stroke="#FF8000"/>
+</g>
+
+<g transform="translate(550,360),rotate(40)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#161616"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#55aaff"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">SKY</text>
+ <text style="font-size:7pt; fill:#eeee88;" font-weight="bold" x="52" y="134" id="color">#55aaff</text>
+ <!-- Rect below is for debug set stroke width to be visible -->
+   <rect x="0" y="0" width="130px" height="120px" class="debug-rect" fill-opacity="0.0" stroke-width="0.0mm" stroke="#FF8000"/>
+</g>
+
+<g transform="translate(680,360),rotate(40)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#161616"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#55eeff"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">SKY-LIGHT</text>
+ <text style="font-size:7pt; fill:#eeee88;" font-weight="bold" x="52" y="134" id="color">#55eeff</text>
+ <!-- Rect below is for debug set stroke width to be visible -->
+   <rect x="0" y="0" width="130px" height="120px" class="debug-rect" fill-opacity="0.0" stroke-width="0.0mm" stroke="#FF8000"/>
+</g>
+
+<g transform="translate(810,360),rotate(40)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#161616"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#5f4dcd"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">IRIS</text>
+ <text style="font-size:7pt; fill:#eeee88;" font-weight="bold" x="52" y="134" id="color">#5f4dcd</text>
+ <!-- Rect below is for debug set stroke width to be visible -->
+   <rect x="0" y="0" width="130px" height="120px" class="debug-rect" fill-opacity="0.0" stroke-width="0.0mm" stroke="#FF8000"/>
+</g>
+
+<g transform="translate(30,480),rotate(40)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#161616"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#ec6481"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">ROSE-LIGHT</text>
+ <text style="font-size:7pt; fill:#eeee88;" font-weight="bold" x="52" y="134" id="color">#ec6481</text>
+ <!-- Rect below is for debug set stroke width to be visible -->
+   <rect x="0" y="0" width="130px" height="120px" class="debug-rect" fill-opacity="0.0" stroke-width="0.0mm" stroke="#FF8000"/>
+</g>
+
+<g transform="translate(160,480),rotate(40)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#161616"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#bde271"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">LEAF-BOTTOM</text>
+ <text style="font-size:7pt; fill:#eeee88;" font-weight="bold" x="52" y="134" id="color">#bde271</text>
+ <!-- Rect below is for debug set stroke width to be visible -->
+   <rect x="0" y="0" width="130px" height="120px" class="debug-rect" fill-opacity="0.0" stroke-width="0.0mm" stroke="#FF8000"/>
+</g>
+
+<g transform="translate(290,480),rotate(40)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#161616"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#e372d9"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">LILAC-LIGHT</text>
+ <text style="font-size:7pt; fill:#eeee88;" font-weight="bold" x="52" y="134" id="color">#e372d9</text>
+ <!-- Rect below is for debug set stroke width to be visible -->
+   <rect x="0" y="0" width="130px" height="120px" class="debug-rect" fill-opacity="0.0" stroke-width="0.0mm" stroke="#FF8000"/>
+</g>
+
+<g transform="translate(420,480),rotate(40)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#161616"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#eeee88"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">LEAF-OLD-LIGHT</text>
+ <text style="font-size:7pt; fill:#eeee88;" font-weight="bold" x="52" y="134" id="color">#eeee88</text>
+ <!-- Rect below is for debug set stroke width to be visible -->
+   <rect x="0" y="0" width="130px" height="120px" class="debug-rect" fill-opacity="0.0" stroke-width="0.0mm" stroke="#FF8000"/>
+</g>
+
+<g transform="translate(550,480),rotate(40)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#161616"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#ebc89b"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">BIRCH-MUTE</text>
+ <text style="font-size:7pt; fill:#eeee88;" font-weight="bold" x="52" y="134" id="color">#ebc89b</text>
+ <!-- Rect below is for debug set stroke width to be visible -->
+   <rect x="0" y="0" width="130px" height="120px" class="debug-rect" fill-opacity="0.0" stroke-width="0.0mm" stroke="#FF8000"/>
+</g>
+
+<g transform="translate(680,480),rotate(40)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#161616"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#aaaaff"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">IRIS-LIGHT</text>
+ <text style="font-size:7pt; fill:#eeee88;" font-weight="bold" x="52" y="134" id="color">#aaaaff</text>
+ <!-- Rect below is for debug set stroke width to be visible -->
+   <rect x="0" y="0" width="130px" height="120px" class="debug-rect" fill-opacity="0.0" stroke-width="0.0mm" stroke="#FF8000"/>
+</g>
+
+<g transform="translate(810,480),rotate(40)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#161616"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#ffc4ab"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">BIRCH</text>
+ <text style="font-size:7pt; fill:#eeee88;" font-weight="bold" x="52" y="134" id="color">#ffc4ab</text>
+ <!-- Rect below is for debug set stroke width to be visible -->
+   <rect x="0" y="0" width="130px" height="120px" class="debug-rect" fill-opacity="0.0" stroke-width="0.0mm" stroke="#FF8000"/>
+</g>
+
+<g transform="translate(30,600),rotate(40)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#161616"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#fffbca"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">BIRCH-LIGHT</text>
+ <text style="font-size:7pt; fill:#eeee88;" font-weight="bold" x="52" y="134" id="color">#fffbca</text>
+ <!-- Rect below is for debug set stroke width to be visible -->
+   <rect x="0" y="0" width="130px" height="120px" class="debug-rect" fill-opacity="0.0" stroke-width="0.0mm" stroke="#FF8000"/>
+</g>
+
+<g transform="translate(160,600),rotate(40)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#161616"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#c8cccd"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">ASH</text>
+ <text style="font-size:7pt; fill:#eeee88;" font-weight="bold" x="52" y="134" id="color">#c8cccd</text>
+ <!-- Rect below is for debug set stroke width to be visible -->
+   <rect x="0" y="0" width="130px" height="120px" class="debug-rect" fill-opacity="0.0" stroke-width="0.0mm" stroke="#FF8000"/>
+</g>
+
+<g transform="translate(290,600),rotate(40)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#161616"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#feffff"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">ASH-LIGHT</text>
+ <text style="font-size:7pt; fill:#eeee88;" font-weight="bold" x="52" y="134" id="color">#feffff</text>
+ <!-- Rect below is for debug set stroke width to be visible -->
+   <rect x="0" y="0" width="130px" height="120px" class="debug-rect" fill-opacity="0.0" stroke-width="0.0mm" stroke="#FF8000"/>
+</g>
+
+  </g>
+</svg>

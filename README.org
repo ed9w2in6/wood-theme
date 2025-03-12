@@ -1,4 +1,5 @@
 #+TITLE:wood-theme
+[[file:wood-theme.el.svg]]
 * Design Philosophy
   A warm, wood-tone colour theme that aims to be gentle on the eyes.
 

@@ -67,6 +67,35 @@ Height of other faces are defined relatively to this."
   :type 'string
   :group 'wood)
 
+;; TODO: Just a template for now, ignoring warnings.
+(defun wood-gen-palette-svg (from-path to-path)
+  "Use `autothemer-generate-palette-svg' on FROM-PATH output to TO-PATH."
+  (autothemer-generate-palette-svg
+   `(:theme-file ,(file-truename "~/.emacs.d/straight/repos/wood-theme/wood-theme.el")
+     :svg-out-file ,(file-truename "~/.emacs.d/straight/repos/wood-theme/wood-theme.el.svg")
+     :bg-color "#331400"
+     :text-accent-color "#eeee88"
+     :text-color "#e39b00"
+     :swatch-border-color "#161616"
+     :columns 7
+     :font-family "Source Sans Pro"
+     :h-space 0
+     :v-space 0
+     :page-bottom-margin 60
+     :page-left-margin 30
+     :page-right-margin 30
+     :page-top-margin 120
+     :sort-palette ,(list
+                     :sort-fn ''autothemer-saturated-order
+                     :group-fn ''autothemer-brightness-grouping
+                     :group-args 'autothemer-dark-mid-light-brightness-groups)
+     :swatch-height 120
+     :swatch-rotate 40
+     :swatch-width 130
+     :visually-group-swatches t
+     ;; :page-template - see page-template below
+     ;; :swatch-template - see swatch-template below
+     )))
 
 (defmacro wood-deftheme (name description palette &rest body)
   "Define a wood theme variant with NAME, DESCRIPTION, PALETTE and BODY."
