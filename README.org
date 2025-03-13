@@ -18,8 +18,7 @@
   This theme suits best to people who need to stare at the screen for long periods.
   My testimony is that this /seems/ to have fixed my eye strains.
 * Known issues and notes
-  As of [2024-05-05 Sun], this is implemented for Emacs only.
-  Since I am only using Emacs in the terminal some GUI elements may not be themed properly.
+  Since I am only using Emacs in the terminal, some GUI elements may not be themed properly.
   I am also abusing face inheritance so some face will stick when switching from another theme.
   The intended usage is therefore loading on startup and not changing theme.
 * Installation and setup
@@ -52,6 +51,11 @@
    As of [2024-05-05 Sun], the only alternative is by manual installtion.
    You'll have to clone this repo, put the relavent files to your Emacs
    home directory, or add the path the cloned repo to =custom-theme-load-path=.
+** [[https://github.com/aome510/spotify-player][spotify-tui]]
+   Add the content of [[file:spotify-player/wood-theme.toml]]
+   to your =theme.toml= file.
+
+   Your =theme.toml= file can be found at =~/.config/spotify-player/=
 * Workflow
   As I intend this for personal use only, the work flow is kept simple and manual:
 
