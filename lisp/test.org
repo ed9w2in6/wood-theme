@@ -1,0 +1,32 @@
+#+TITLE:The Title
+#+DATE: [2025-03-10 Mon]
+* First
+* Second
+** Child
+*** Numbers
+**** one
+***** two
+** One more thing
+*** Some code <2025-03-12 Wed 03:16>
+    + and heres some list and [[www.][some link]] [2025-03-12 Wed 03:15]
+    + %%(diary-anniversary 10 31 1948) Arthur's birthday (%d years old)
+      
+      #+begin_src elisp :results value scalar :eval yes
+(defmacro for (e _in list _first-do setup _each-do loop _finally end)
+  "For loop."
+    `(let ((_for_ignore ,setup))
+          (mapc (lambda (,e) ,loop) ,list)
+          ,end))
+(let ((results (for char in "Rednexela"
+                    first-do (setq str "")
+                    each-do  (setq str (format "%c%s" char str))
+                    finally  str
+               )))
+     (fmakunbound #'for)
+     (makunbound 'acc)
+     (capitalize results))
+      #+end_src      
+
+#+RESULTS:
+: "Alexender"
+

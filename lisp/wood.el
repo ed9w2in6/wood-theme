@@ -144,6 +144,7 @@ Height of other faces are defined relatively to this."
      (font-latex-match-reference-keywords (:foreground wood-rose))
      (font-latex-match-variable-keywords (:foreground wood-leaf-dry))
      (font-latex-string-face (:foreground wood-birch))
+
      (font-lock-builtin-face (:foreground wood-rose-light))
      (font-lock-comment-face (:foreground wood-ash-dark))
      (font-lock-constant-face (:foreground wood-rose))
@@ -155,7 +156,10 @@ Height of other faces are defined relatively to this."
      (font-lock-string-face (:foreground wood-birch))
      (font-lock-type-face (:foreground wood-leaf-bottom))
      (font-lock-variable-name-face (:foreground wood-leaf-dry))
-     (font-lock-warning-face (:foreground wood-leaf-momiji)) ; :background wood-bark-light
+     (font-lock-warning-face (:background wood-bark-light :foreground wood-leaf-momiji))
+     
+     (sh-quoted-exec (:background wood-bark-light :foreground wood-leaf-momiji))
+     
      (fringe (:background wood-bark-light :foreground wood-birch-mute))
      (gnus-header-content (:foreground wood-lilac))
      (gnus-header-from (:foreground wood-leaf-dry))
@@ -222,7 +226,7 @@ Height of other faces are defined relatively to this."
      (magit-section-highlight (:background wood-sap))
      ;; marginalia-key theme inspired by helm-M-x-key:
      ;; https://github.com/emacs-helm/helm/blob/eae4f5a24a2a5d9fac0ec1a9200362bf9efa911b/helm-command.el#L69
-     (marginalia-key (:inherit 'font-lock-warning-face :weight 'thin :slant 'italic))
+     (marginalia-key (:background wood-bark-light :foreground wood-leaf-momiji :weight 'thin :slant 'italic))
      (menu (:background wood-sap-light))
      (minibuffer-prompt (:weight 'bold :foreground wood-lilac))
 
