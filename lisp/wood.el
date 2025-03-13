@@ -151,7 +151,7 @@ Height of other faces are defined relatively to this."
      (font-lock-doc-face (:foreground wood-ash-dark))
      (font-lock-function-name-face (:foreground wood-leaf-old))
      (font-lock-keyword-face (:weight 'bold :foreground wood-lilac))
-     (font-lock-negation-char-face (:foreground wood-rose))
+     (font-lock-negation-char-face (:background wood-bark-light :foreground wood-rose :weight 'bold))
      (font-lock-reference-face (:foreground wood-rose))
      (font-lock-string-face (:foreground wood-birch))
      (font-lock-type-face (:foreground wood-leaf-bottom))
