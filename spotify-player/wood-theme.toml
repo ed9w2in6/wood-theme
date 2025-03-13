@@ -1,0 +1,85 @@
+[[themes]]
+name = "wood"
+[themes.palette]
+background = "#331400"     # wood-bark
+foreground = "#fffbca"     # wood-birch-light
+black = "#2b0400"          # wood-sap-light
+bright_black = "#7a7a7a"   # wood-ash-dark
+red = "#ba0016"            # wood-rose
+bright_red = "#ff6900"     # wood-leaf-momiji NOT USED
+green = "#488800"          # wood-leaf
+bright_green = "#bde271"   # wood-leaf-bottom
+yellow = "#e39b00"         # wood-leaf-dry
+bright-yellow = "#eeee88"  # wood-leaf-old-light
+blue = "#5f4dcd"           # wood-iris        NOT USED
+bright_blue = "#aaaaff"    # wood-iris-light
+magenta = "#761636"        # wood-lilac
+bright_magenta = "#e372d9" # wood-lilac-light NOT USED
+cyan = "#55aaff"           # wood-sky         NOT USED
+bright_cyan = "#55eeff"    # wood-sky-light
+white = "#ffc4ab"          # wood-birch       NOT USED
+bright_white = "#feffff"   # wood-ash-light
+[themes.component_style]
+# All blocks
+border = { fg = "BrightBlack" }
+block_title = { fg = "Yellow" }
+page_desc = { fg = "Red", modifiers = ["Bold"] }
+table_header = { fg = "Green", modifiers = ["Italic"] }
+current_playing = { fg = "BrightYellow", modifiers = ["Bold"] }
+like = { fg = "BrightCyan" } # liked track
+# playback block
+playback_status = { fg = "BrightBlue", modifiers = ["Bold"] } # play pause icon
+playback_track = { fg = "BrightGreen", modifiers = ["Bold"] }
+playback_album = { fg = "BrightYellow" }
+playback_artists = { fg = "BrightWhite", modifiers = ["Hidden"] }
+playback_metadata = { fg = "BrightBlack" }
+playback_progress_bar = { bg = "Black", fg = "Magenta" } # fg is the moving part
+playback_progress_bar_unfilled = { fg = "Magenta" } # when progress_bar_type = "Line"
+# special highlights
+lyrics_played = { fg = "BrightBlack" }
+secondary_row = { fg = "BrightWhite" } # alternate for long lines like C-h h
+selection = { bg = "Red", modifiers = ["Bold"] } # cursor
+
+
+
+[[themes]]
+name = "wood-transparent"
+[themes.palette]
+# background = "#331400"     # wood-bark
+foreground = "#fffbca"     # wood-birch-light
+black = "#2b0400"          # wood-sap-light
+bright_black = "#7a7a7a"   # wood-ash-dark
+red = "#ba0016"            # wood-rose
+bright_red = "#ff6900"     # wood-leaf-momiji NOT USED
+green = "#488800"          # wood-leaf
+bright_green = "#bde271"   # wood-leaf-bottom
+yellow = "#e39b00"         # wood-leaf-dry
+bright-yellow = "#eeee88"  # wood-leaf-old-light
+blue = "#5f4dcd"           # wood-iris        NOT USED
+bright_blue = "#aaaaff"    # wood-iris-light
+magenta = "#761636"        # wood-lilac
+bright_magenta = "#e372d9" # wood-lilac-light NOT USED
+cyan = "#55aaff"           # wood-sky         NOT USED
+bright_cyan = "#55eeff"    # wood-sky-light
+white = "#ffc4ab"          # wood-birch       NOT USED
+bright_white = "#feffff"   # wood-ash-light
+[themes.component_style]
+# All blocks
+border = { fg = "BrightBlack" }
+block_title = { fg = "Yellow" }
+page_desc = { fg = "Red", modifiers = ["Bold"] }
+table_header = { fg = "Green", modifiers = ["Italic"] }
+current_playing = { fg = "BrightYellow", modifiers = ["Bold"] }
+like = { fg = "BrightCyan" } # liked track
+# playback block
+playback_status = { fg = "BrightBlue", modifiers = ["Bold"] } # play pause icon
+playback_track = { fg = "BrightGreen", modifiers = ["Bold"] }
+playback_album = { fg = "BrightYellow" }
+playback_artists = { fg = "BrightWhite", modifiers = ["Hidden"] }
+playback_metadata = { fg = "BrightBlack" }
+playback_progress_bar = { bg = "Black", fg = "Magenta" } # fg is the moving part
+playback_progress_bar_unfilled = { fg = "Magenta" } # when progress_bar_type = "Line"
+# special highlights
+lyrics_played = { fg = "BrightBlack" }
+secondary_row = { fg = "BrightWhite" } # alternate for long lines like C-h h
+selection = { bg = "Red", modifiers = ["Bold"] } # cursor
