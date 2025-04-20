@@ -78,7 +78,7 @@
      - benefit is that common color uses same colour name.
      - pallete generation
      - auto generation for missing component using colour distance
-     - easier maintainence and customisation
+     - easier maintenance and customisation
        * variance definition (e.g. wood-light)
 ** week of [2024-03-21 Thu]
    + custom =marginalia-key= face for helm-like keybind hint face
