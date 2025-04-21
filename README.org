@@ -57,7 +57,7 @@
 
    Your =theme.toml= file can be found at =~/.config/spotify-player/=
 * Workflow
-  As I intend this for personal use only, the work flow is kept simple and manual:
+  As this was for personal use, the work flow is kept simple and manual:
 
   1. After commit, freeze all changes for at least 1 week
      - unless breaking issue
@@ -66,13 +66,20 @@
   2. Record all annoyance in this document
   3. Open for improvment after 1 week freeze
 * Annoyances
-  Nothing for now. ([2025-03-12 Wed])
+  Nothing for now. ([2025-04-21 Mon])
 * Future Work
   + choose some modes for face review, ensure meaning are consistent
     - e.g. always gray when comment related
   + maybe use some orange / brown for some faces?  Seems too few oranges.
     - [2023-08-18 Fri] :: actually I can't pin point any that annoys me.
 * Change Log
+** week of [2025-04-21 Mon]
+   + changes to palette upon [[https://www.reddit.com/r/emacs/comments/1k3k0du/new_theme_to_reduce_eye_strain_woodtheme/][feedback from reddit]]:
+     - =wood-rose=
+     - =wood-rose-light=
+     - =wood-lilac=
+     - =wood-iris=
+     - =wood-iris-light=
 ** week of [2025-03-12 Wed]
    + redo with https://github.com/jasonm23/autothemer
      - benefit is that common color uses same colour name.

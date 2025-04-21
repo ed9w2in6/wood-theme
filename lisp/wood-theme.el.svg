@@ -94,9 +94,9 @@
 
 <g transform="translate(160,240),rotate(40)">
  <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#161616"/>
- <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#7d1636"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#9d1650"/>
  <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">LILAC</text>
- <text style="font-size:7pt; fill:#eeee88;" font-weight="bold" x="52" y="134" id="color">#7d1636</text>
+ <text style="font-size:7pt; fill:#eeee88;" font-weight="bold" x="52" y="134" id="color">#9d1650</text>
  <!-- Rect below is for debug set stroke width to be visible -->
    <rect x="0" y="0" width="130px" height="120px" class="debug-rect" fill-opacity="0.0" stroke-width="0.0mm" stroke="#FF8000"/>
 </g>
@@ -175,14 +175,23 @@
 
 <g transform="translate(420,360),rotate(40)">
  <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#161616"/>
- <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#ba0016"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#d00016"/>
  <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">ROSE</text>
- <text style="font-size:7pt; fill:#eeee88;" font-weight="bold" x="52" y="134" id="color">#ba0016</text>
+ <text style="font-size:7pt; fill:#eeee88;" font-weight="bold" x="52" y="134" id="color">#d00016</text>
  <!-- Rect below is for debug set stroke width to be visible -->
    <rect x="0" y="0" width="130px" height="120px" class="debug-rect" fill-opacity="0.0" stroke-width="0.0mm" stroke="#FF8000"/>
 </g>
 
 <g transform="translate(550,360),rotate(40)">
+ <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#161616"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#6644cc"/>
+ <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">IRIS</text>
+ <text style="font-size:7pt; fill:#eeee88;" font-weight="bold" x="52" y="134" id="color">#6644cc</text>
+ <!-- Rect below is for debug set stroke width to be visible -->
+   <rect x="0" y="0" width="130px" height="120px" class="debug-rect" fill-opacity="0.0" stroke-width="0.0mm" stroke="#FF8000"/>
+</g>
+
+<g transform="translate(680,360),rotate(40)">
  <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#161616"/>
  <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#55aaff"/>
  <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">SKY</text>
@@ -191,7 +200,7 @@
    <rect x="0" y="0" width="130px" height="120px" class="debug-rect" fill-opacity="0.0" stroke-width="0.0mm" stroke="#FF8000"/>
 </g>
 
-<g transform="translate(680,360),rotate(40)">
+<g transform="translate(810,360),rotate(40)">
  <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#161616"/>
  <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#55eeff"/>
  <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">SKY-LIGHT</text>
@@ -200,20 +209,11 @@
    <rect x="0" y="0" width="130px" height="120px" class="debug-rect" fill-opacity="0.0" stroke-width="0.0mm" stroke="#FF8000"/>
 </g>
 
-<g transform="translate(810,360),rotate(40)">
- <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#161616"/>
- <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#5f4dcd"/>
- <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">IRIS</text>
- <text style="font-size:7pt; fill:#eeee88;" font-weight="bold" x="52" y="134" id="color">#5f4dcd</text>
- <!-- Rect below is for debug set stroke width to be visible -->
-   <rect x="0" y="0" width="130px" height="120px" class="debug-rect" fill-opacity="0.0" stroke-width="0.0mm" stroke="#FF8000"/>
-</g>
-
 <g transform="translate(30,480),rotate(40)">
  <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#161616"/>
- <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#ec6481"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#ff6481"/>
  <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">ROSE-LIGHT</text>
- <text style="font-size:7pt; fill:#eeee88;" font-weight="bold" x="52" y="134" id="color">#ec6481</text>
+ <text style="font-size:7pt; fill:#eeee88;" font-weight="bold" x="52" y="134" id="color">#ff6481</text>
  <!-- Rect below is for debug set stroke width to be visible -->
    <rect x="0" y="0" width="130px" height="120px" class="debug-rect" fill-opacity="0.0" stroke-width="0.0mm" stroke="#FF8000"/>
 </g>
@@ -256,9 +256,9 @@
 
 <g transform="translate(680,480),rotate(40)">
  <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#161616"/>
- <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#aaaaff"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#bbaaff"/>
  <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">IRIS-LIGHT</text>
- <text style="font-size:7pt; fill:#eeee88;" font-weight="bold" x="52" y="134" id="color">#aaaaff</text>
+ <text style="font-size:7pt; fill:#eeee88;" font-weight="bold" x="52" y="134" id="color">#bbaaff</text>
  <!-- Rect below is for debug set stroke width to be visible -->
    <rect x="0" y="0" width="130px" height="120px" class="debug-rect" fill-opacity="0.0" stroke-width="0.0mm" stroke="#FF8000"/>
 </g>
