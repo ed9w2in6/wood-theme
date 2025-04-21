@@ -1,5 +1,10 @@
 #+TITLE:wood-theme
 [[file:lisp/wood-theme.el.svg]]
+* Previews
+** Emacs
+   [[file:lisp/wood-theme.el.png]]
+** =spotify-player=
+   [[file:spotify-player/wood-theme.png]]
 * Design Philosophy
   A warm, wood-tone colour theme that aims to be gentle on the eyes.
 
@@ -51,7 +56,7 @@
    As of [2024-05-05 Sun], the only alternative is by manual installtion.
    You'll have to clone this repo, put the relavent files to your Emacs
    home directory, or add the path the cloned repo to =custom-theme-load-path=.
-** [[https://github.com/aome510/spotify-player][spotify-tui]]
+** [[https://github.com/aome510/spotify-player][spotify-player]]
    Add the content of [[file:spotify-player/wood-theme.toml]]
    to your =theme.toml= file.
 
