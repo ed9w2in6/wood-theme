@@ -73,6 +73,7 @@ Height of other faces are defined relatively to this."
   (autothemer-generate-palette-svg
    `(:theme-file ,(file-truename from-path)
      :svg-out-file ,(file-truename to-path)
+     :theme-url "https://github.com/ed9w2in6/wood-theme"
      :bg-color "#331400"            ; wood-bark
      :text-accent-color "#eeee88"   ; wood-leaf-old-light
      :text-color "#e39b00"          ; wood-leaf-dry

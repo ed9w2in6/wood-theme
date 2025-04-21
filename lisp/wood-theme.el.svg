@@ -13,10 +13,10 @@
   </style>
   <rect x="0" y="0" rx="10" width="970px" height="780px" id="background-panel" fill="#331400"/>
   <g transform="translate(14,10)">
-    <a xlink:href="http://github.com/ed9w2in6/wood-theme.el">
+    <a xlink:href="https://github.com/ed9w2in6/wood-theme">
     <text style="font-size:42pt;" font-weight="bold" x="3%" y="50" id="theme-name">wood</text>
-    <text style="font-size:12pt;" x="4%" y="75" id="theme-description">A warm theme inspired by wood and plants colours.</text>
-    <text style="font-size:8pt;fill: #eeee88" text-anchor="end" x="95%" y="20" id="theme-url">http://github.com/ed9w2in6/wood-theme.el</text>
+    <text style="font-size:12pt;" x="4%" y="75" id="theme-description">Relaxing warm theme inspired by wood and plants colours.</text>
+    <text style="font-size:8pt;fill: #eeee88" text-anchor="end" x="95%" y="20" id="theme-url">https://github.com/ed9w2in6/wood-theme</text>
     </a>
   </g>
   <g transform="translate(70,-40)">

@@ -27,7 +27,7 @@
 (require 'wood)
 
 (wood-deftheme wood
-  "A warm theme inspired by wood and plants colours."
+  "Relaxing warm theme inspired by wood and plants colours."
   
   ;; declare color classes to use
   ((((class color) (min-colors #xffffff)) ; 24 bit color
