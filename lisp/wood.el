@@ -71,12 +71,12 @@ Height of other faces are defined relatively to this."
 (defun wood-gen-palette-svg (from-path to-path)
   "Use `autothemer-generate-palette-svg' on FROM-PATH output to TO-PATH."
   (autothemer-generate-palette-svg
-   `(:theme-file ,(file-truename "~/.emacs.d/straight/repos/wood-theme/wood-theme.el")
-     :svg-out-file ,(file-truename "~/.emacs.d/straight/repos/wood-theme/wood-theme.el.svg")
-     :bg-color "#331400"
-     :text-accent-color "#eeee88"
-     :text-color "#e39b00"
-     :swatch-border-color "#161616"
+   `(:theme-file ,(file-truename from-path)
+     :svg-out-file ,(file-truename to-path)
+     :bg-color "#331400"            ; wood-bark
+     :text-accent-color "#eeee88"   ; wood-leaf-old-light
+     :text-color "#e39b00"          ; wood-leaf-dry
+     :swatch-border-color "#161616" ; wood-soot
      :columns 7
      :font-family "Source Sans Pro"
      :h-space 0
@@ -177,7 +177,9 @@ Height of other faces are defined relatively to this."
      (info-quoted-name (:foreground wood-rose-light))
      (info-string (:foreground wood-birch))
      
+     (match (:weight 'bold :foreground wood-iris-light :background wood-heart))
      (isearch (:weight 'bold :foreground wood-iris-light :background wood-heart))
+     (isearch-fail (:inherit 'error))
      (ivy-current-match (:underline t :inherit 'highlight :foreground wood-iris-light))
      
      (jde-java-font-lock-constant-face (:foreground wood-rose))
