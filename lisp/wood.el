@@ -177,11 +177,16 @@ Height of other faces are defined relatively to this."
      (ido-only-match (:foreground wood-leaf-momiji))
      (info-quoted-name (:foreground wood-rose-light))
      (info-string (:foreground wood-birch))
-     
-     (match (:weight 'bold :foreground wood-iris-light :background wood-heart))
-     (isearch (:weight 'bold :foreground wood-iris-light :background wood-heart))
+
+     ;; search match
+     (match (:weight 'bold :foreground wood-leaf-sprout :background wood-heart))
+     (isearch (:inherit 'match))
      (isearch-fail (:inherit 'error))
-     (ivy-current-match (:underline t :inherit 'highlight :foreground wood-iris-light))
+     (ivy-current-match (:underline t :inherit'match))
+     (orderless-match-face-0 (:inherit 'match))
+     (orderless-match-face-1 (:inherit 'match :foreground wood-leaf-momiji))
+     (orderless-match-face-2 (:inherit 'match :foreground wood-lilac-light))
+     (orderless-match-face-3 (:inherit 'match :foreground wood-sky))
      
      (jde-java-font-lock-constant-face (:foreground wood-rose))
      (jde-java-font-lock-modifier-face (:foreground wood-birch-mute))
