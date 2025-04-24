@@ -3,7 +3,7 @@ name = "wood"
 [themes.palette]
 background = "#331400"     # wood-bark
 foreground = "#fffbca"     # wood-birch-light
-black = "#2b0400"          # wood-sap-light
+black = "#280000"          # wood-bark-dark
 bright_black = "#7a7a7a"   # wood-ash-dark
 red = "#d00016"            # wood-rose
 bright_red = "#ff6900"     # wood-leaf-momiji NOT USED
@@ -47,7 +47,7 @@ name = "wood-transparent"
 [themes.palette]
 # background = "#331400"     # wood-bark
 foreground = "#fffbca"     # wood-birch-light
-black = "#2b0400"          # wood-sap-light
+black = "#280000"          # wood-bark-dark
 bright_black = "#7a7a7a"   # wood-ash-dark
 red = "#d00016"            # wood-rose
 bright_red = "#ff6900"     # wood-leaf-momiji NOT USED

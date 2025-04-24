@@ -22,9 +22,9 @@
   <g transform="translate(70,-40)">
     <g transform="translate(30,120),rotate(40)">
  <ellipse cx="70" cy="70" rx="45" ry="45" id="background-color" fill="#161616"/>
- <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#2b0400"/>
+ <ellipse cx="70" cy="70" rx="42" ry="42" id="color" fill="#280000"/>
  <text style="font-size:7pt" font-weight="bold" x="52" y="125" id="color-name">BARK-DARK</text>
- <text style="font-size:7pt; fill:#eeee88;" font-weight="bold" x="52" y="134" id="color">#2b0400</text>
+ <text style="font-size:7pt; fill:#eeee88;" font-weight="bold" x="52" y="134" id="color">#280000</text>
  <!-- Rect below is for debug set stroke width to be visible -->
    <rect x="0" y="0" width="130px" height="120px" class="debug-rect" fill-opacity="0.0" stroke-width="0.0mm" stroke="#FF8000"/>
 </g>

@@ -36,7 +36,7 @@
    
    ;; Define colours, one columns per class in order
    ;; Woods (main)
-   (wood-bark-dark "#2b0400")
+   (wood-bark-dark "#280000")
    (wood-bark "#331400")
    (wood-bark-light "#401900") ; result of auto wood-indent from #331400
    (wood-sap "#402510")        ; slight blue for contrast
