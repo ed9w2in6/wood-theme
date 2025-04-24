@@ -107,6 +107,7 @@ Height of other faces are defined relatively to this."
     
     ;; Config faces.  Symbols that not palette name MUST be quoted, e.g. ... :weight 'bold
     ((default (:height wood-default-face-height :family wood-default-face-font-family :background wood-bark :foreground wood-birch-light))
+     (default-italic (:slant 'italic))
      (fixed-pitch (:weight 'light :inherit 'default))
      (variable-pitch (:weight 'light :family wood-variable-pitch-face-font-family))
      (ac-completion-face (:underline t :foreground wood-lilac))
@@ -131,9 +132,17 @@ Height of other faces are defined relatively to this."
      ;; term color inherits from ansi, hence removed, see term.el
      
      (aw-leading-char-face (:foreground wood-rose :height 5.0))
+     
      (cursor (:background wood-rose))
-     (default-italic (:slant 'italic))
      (error (:foreground wood-sky-light :weight 'bold))
+     (fringe (:background wood-bark-dark :inherit 'shadow))
+     (highlight (:background wood-heart :foreground wood-birch-mute))
+     (link (:underline t :foreground wood-leaf-dry))
+     (menu (:background wood-sap-light))
+     (region (:inverse-video t))
+     (shadow (:foreground wood-ash-dark))
+     (success (:foreground wood-leaf-young :weight 'bold))
+     (warning (:foreground wood-sky))
      ;; rely on inherit for now
      ;; (flycheck-error (:inherit 'error))
      ;; (flycheck-warning (:inherit 'warning))
@@ -147,7 +156,7 @@ Height of other faces are defined relatively to this."
      (font-latex-string-face (:foreground wood-birch))
 
      (font-lock-builtin-face (:foreground wood-rose-light))
-     (font-lock-comment-face (:foreground wood-ash-dark))
+     (font-lock-comment-face (:inherit 'shadow))
      (font-lock-constant-face (:foreground wood-rose))
      (font-lock-doc-face (:foreground wood-ash-dark))
      (font-lock-function-name-face (:foreground wood-leaf-old))
@@ -161,14 +170,12 @@ Height of other faces are defined relatively to this."
      
      (sh-quoted-exec (:background wood-bark-light :foreground wood-leaf-momiji))
      
-     (fringe (:background wood-bark-light :foreground wood-birch-mute))
      (gnus-header-content (:foreground wood-lilac))
      (gnus-header-from (:foreground wood-leaf-dry))
      (gnus-header-name (:foreground wood-leaf-bottom))
      (gnus-header-subject (:foreground wood-leaf-old :weight 'bold))
      (header-line (:background wood-heart :foreground wood-birch-mute :inverse-video nil :box nil
                                :underline (:color wood-birch-light :style 'wave :position nil) :weight 'bold))
-     (highlight (:background wood-heart :foreground wood-birch-mute))
      ;; highlight-indent-guides auto calculates from theme, hence removed, see highlight-indent-guides.el
 
      (hl-line (:background wood-sap))
@@ -179,7 +186,7 @@ Height of other faces are defined relatively to this."
      (info-string (:foreground wood-birch))
 
      ;; search match
-     (match (:weight 'bold :foreground wood-leaf-sprout :background wood-heart))
+     (match (:weight 'bold :slant 'italic :foreground wood-leaf-sprout :inherit 'highlight))
      (isearch (:inherit 'match))
      (isearch-fail (:inherit 'error))
      (ivy-current-match (:underline t :inherit'match))
@@ -187,6 +194,9 @@ Height of other faces are defined relatively to this."
      (orderless-match-face-1 (:inherit 'match :foreground wood-leaf-momiji))
      (orderless-match-face-2 (:inherit 'match :foreground wood-lilac-light))
      (orderless-match-face-3 (:inherit 'match :foreground wood-sky))
+     (consult-preview-insertion (:inherit 'shadow :background wood-bark-dark))
+     (consult-preview-line (:inherit 'consult-preview-insertion))
+     
      
      (jde-java-font-lock-constant-face (:foreground wood-rose))
      (jde-java-font-lock-modifier-face (:foreground wood-birch-mute))
@@ -217,7 +227,6 @@ Height of other faces are defined relatively to this."
      (lazy-highlight (:inherit 'highlight))
      (line-number (:inherit 'fringe))
      (line-number-current-line (:inherit 'fringe :foreground wood-birch-light :weight 'bold))
-     (link (:underline t :foreground wood-leaf-dry))
      (magit-branch (:foreground wood-rose :weight 'bold))
      (magit-diff-context-highlight (:inherit 'highlight))
      (magit-diff-file-header (:foreground wood-birch-mute :background wood-heart))
@@ -235,7 +244,6 @@ Height of other faces are defined relatively to this."
      ;; marginalia-key theme inspired by helm-M-x-key:
      ;; https://github.com/emacs-helm/helm/blob/eae4f5a24a2a5d9fac0ec1a9200362bf9efa911b/helm-command.el#L69
      (marginalia-key (:background wood-bark-light :foreground wood-leaf-momiji :weight 'thin :slant 'italic))
-     (menu (:background wood-sap-light))
      (minibuffer-prompt (:weight 'bold :foreground wood-lilac))
 
      (mode-line (:background wood-heart-light :foreground wood-birch-mute :box nil :weight 'bold))
@@ -260,8 +268,8 @@ Height of other faces are defined relatively to this."
      (org-level-3 (:height 1.2 :foreground wood-leaf :extend nil :inherit 'org-level-8))
      (org-level-4 (:height 1.1 :inherit 'org-level-8 :extend nil :foreground wood-leaf-dry))
      (org-level-8 (:extend nil :weight 'semi-bold :inherit 'variable-pitch))
-     (org-link (:foreground wood-leaf-dry :inherit 'link))
-     (org-meta-line (:inherit '(font-lock-comment-face fixed-pitch)))
+     (org-link (:inherit 'link))
+     (org-meta-line (:inherit '(shadow fixed-pitch)))
      (org-sexp-date (:background wood-ash-dark :foreground wood-soot :distant-foreground wood-ash-light))
      
      ;; org-special-keyword used to format org-comment-string, and property entries
@@ -280,11 +288,9 @@ Height of other faces are defined relatively to this."
      ;; (rainbow-delimiters-depth-8-face nil)
      (rainbow-delimiters-unmatched-face (:foreground wood-leaf-momiji))
      
-     (region (:inverse-video t))
      (show-paren-match (:background wood-leaf-old :foreground wood-bark :inverse-video nil))
      (show-paren-mismatch (:foreground wood-bark :background wood-leaf-momiji :inverse-video))
      (slime-repl-inputed-output-face (:foreground wood-leaf-bottom))
-     (success (:foreground wood-leaf-young :weight 'bold))
 
      ;; tab-line related faces originally set inherit to nil
      (tab-line (:background wood-bark-dark :foreground wood-birch-mute :weight 'bold :height 1.0 :box (:line-width -1 :color wood-bark-dark) :inherit 'variable-pitch))
@@ -310,7 +316,8 @@ Height of other faces are defined relatively to this."
      (undo-tree-visualizer-unmodified-face (:foreground wood-leaf-dry))
 
      (vertical-border (:foreground wood-heart-light))
-     (warning (:foreground wood-sky))
+     (vertico-current (:background wood-bark-dark))
+     
      (web-mode-builtin-face (:inherit 'font-lock-builtin-face))
      (web-mode-comment-face (:inherit 'font-lock-comment-face))
      (web-mode-constant-face (:inherit 'font-lock-constant-face))
