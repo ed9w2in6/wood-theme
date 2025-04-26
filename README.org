@@ -1,10 +1,12 @@
 #+TITLE:wood-theme
 [[file:lisp/wood-theme.el.svg]]
 * Previews
-** Emacs
+** [[https://www.gnu.org/savannah-checkouts/gnu/emacs/emacs.html][Emacs]]
    [[file:lisp/wood-theme.el.png]]
-** =spotify-player=
+** [[https://github.com/aome510/spotify-player][spotify-player]]
    [[file:spotify-player/wood-theme.png]]
+** [[https://github.com/kovidgoyal/kitty][kitty]]
+   [[file:kitty/Wood.conf.png]]
 * Design Philosophy
   A warm, wood-tone colour theme that aims to be gentle on the eyes.
 
@@ -27,7 +29,7 @@
   I am also abusing face inheritance so some face will stick when switching from another theme.
   The intended usage is therefore loading on startup and not changing theme.
 * Installation and setup
-** Emacs
+** [[https://www.gnu.org/savannah-checkouts/gnu/emacs/emacs.html][Emacs]]
    Requires [[https://github.com/jasonm23/autothemer][Github - jasonm23/autothemer]], if you use =straight.el= do:
    #+begin_src emacs-lisp :results output scalar :eval no
 (use-package autothemer
@@ -61,6 +63,14 @@
    to your =theme.toml= file.
 
    Your =theme.toml= file can be found at =~/.config/spotify-player/=
+** [[https://github.com/kovidgoyal/kitty][kitty]]
+   As of [2025-04-27 Sun]:
+   
+   Download [[file:kitty/Wood.conf]] to the =~/.config/kitty/themes/= directory.
+   Then use the =kitten themes= command to choose the =Wood= theme.
+
+   Alternatively, at a new line in your config file (default at  =~/.config/kitty/kitty.conf=)
+   write =include themes/Wood.conf=.
 * Workflow
   As this was for personal use, the work flow is kept simple and manual:
 
@@ -78,6 +88,8 @@
   + maybe use some orange / brown for some faces?  Seems too few oranges.
     - [2023-08-18 Fri] :: actually I can't pin point any that annoys me.
 * Change Log
+** week of [2025-04-27 Sun]
+   + add theme for kitty
 ** week of [2025-04-21 Mon]
    + changes to palette upon [[https://www.reddit.com/r/emacs/comments/1k3k0du/new_theme_to_reduce_eye_strain_woodtheme/][feedback from reddit]]:
      - =wood-rose=
