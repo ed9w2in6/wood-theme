@@ -111,7 +111,7 @@ Height of other faces are defined relatively to this."
      (fixed-pitch (:weight 'light :inherit 'default))
      (variable-pitch (:weight 'light :family wood-variable-pitch-face-font-family))
      (ac-completion-face (:underline t :foreground wood-lilac))
-     (widget-field (:inherit 'org-block)) ; (:background wood-sap-light :foreground wood-birch-light)
+     (widget-field (:inherit '(shadow fixed-pitch) :extend t :background wood-sap-light :foreground wood-birch-light))
      
      (ansi-color-black (:background wood-soot :foreground wood-soot))
      (ansi-color-bright-black (:background wood-ash-dark :foreground wood-ash-dark))
@@ -256,6 +256,8 @@ Height of other faces are defined relatively to this."
      (mu4e-cited-7-face (:foreground wood-birch-mute))
      (mu4e-header-marks-face (:foreground wood-leaf-bottom))
      (mu4e-view-url-number-face (:foreground wood-leaf-bottom))
+
+     (org-block (:inherit 'widget-field)) ; (:background wood-sap-light :foreground wood-birch-light)
      (org-block (:inherit '(shadow fixed-pitch) :extend t :background wood-sap-light :foreground wood-birch-light))
      (org-block-begin-line (:background wood-sap :foreground wood-leaf-dry-dark :extend t :inherit 'org-meta-line))
      (org-block-end-line (:background wood-sap :foreground wood-leaf-dry-dark :extend t :inherit 'org-block-begin-line))
