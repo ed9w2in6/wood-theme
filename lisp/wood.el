@@ -186,7 +186,7 @@ Height of other faces are defined relatively to this."
      (info-string (:foreground wood-birch))
 
      ;; search match
-     (match (:weight 'bold :slant 'italic :foreground wood-leaf-sprout :inherit 'highlight))
+     (match (:weight 'bold :slant 'italic :foreground wood-leaf-sprout :inherit 'highlight :inverse-video t))
      (isearch (:inherit 'match))
      (isearch-fail (:inherit 'error))
      (ivy-current-match (:underline t :inherit'match))
